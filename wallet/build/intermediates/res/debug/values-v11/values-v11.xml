@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values-v11/colors.xml -->
+    <eat-comment/>
+    <color name="bg_dialog_title">@android:color/transparent</color>
+    <color name="bg_form">@android:color/white</color>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values-v11/styles.xml -->
+    <eat-comment/>
+    <style name="My.Theme.Fullscreen" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen"/>
+    <style name="My.Widget.AutoCompleteTextView" parent="@android:style/Widget.Holo.Light.AutoCompleteTextView"/>
+    <style name="My.Widget.Button.Borderless" parent="@android:style/Widget.Holo.Button.Borderless">
+		<item name="android:paddingLeft">8dp</item>
+		<item name="android:paddingRight">8dp</item>
+		<item name="android:drawablePadding">8dp</item>
+	</style>
+    <style name="My.Widget.CompoundButton.CheckBox" parent="@android:style/Widget.Holo.Light.CompoundButton.CheckBox"/>
+    <style name="My.Widget.EditText" parent="@android:style/Widget.Holo.Light.EditText"/>
+    <style name="My.Widget.Spinner" parent="@android:style/Widget.Holo.Light.Spinner"/>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values-v11/abs__themes.xml -->
+    <eat-comment/>
+    <style name="Sherlock.__Theme" parent="android:Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Sherlock.__Theme.Light" parent="android:Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+</resources>

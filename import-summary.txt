@@ -1,0 +1,74 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* AUTHORS
+* CHANGES
+* COPYING
+* README
+* README.forks
+* pom.xml
+* proguard.cfg
+* tags
+* test\
+* test\com\
+* test\com\kobocoin\
+* test\com\kobocoin\android_wallet\
+* test\com\kobocoin\android_wallet\util\
+* test\com\kobocoin\android_wallet\util\Base43Test.java
+* test\com\kobocoin\android_wallet\util\BluetoothTest.java
+* test\com\kobocoin\android_wallet\util\CryptoTest.java
+* test\com\kobocoin\android_wallet\util\GenericUtilsTest.java
+* test\com\kobocoin\android_wallet\util\tags
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => wallet\src\main\AndroidManifest.xml
+* assets\ => wallet\src\main\assets\
+* libs\android-support-v4.jar => wallet\libs\android-support-v4.jar
+* libs\arm64-v8a\libx15.so => wallet\src\main\jniLibs\arm64-v8a\libx15.so
+* libs\armeabi-v7a\libx15.so => wallet\src\main\jniLibs\armeabi-v7a\libx15.so
+* libs\armeabi\libx15.so => wallet\src\main\jniLibs\armeabi\libx15.so
+* libs\mips64\libx15.so => wallet\src\main\jniLibs\mips64\libx15.so
+* libs\mips\libx15.so => wallet\src\main\jniLibs\mips\libx15.so
+* libs\x86\libx15.so => wallet\src\main\jniLibs\x86\libx15.so
+* libs\x86_64\libx15.so => wallet\src\main\jniLibs\x86_64\libx15.so
+* res\ => wallet\src\main\res\
+* src\ => wallet\src\main\java\
+* src\.directory => wallet\src\main\resources\.directory
+* src\com\actionbarsherlock\internal\widget\tags => wallet\src\main\resources\com\actionbarsherlock\internal\widget\tags
+* src\com\bushstar\kobocoin_android_wallet\service\tags => wallet\src\main\resources\com\bushstar\kobocoin_android_wallet\service\tags
+* src\com\bushstar\kobocoin_android_wallet\tags => wallet\src\main\resources\com\bushstar\kobocoin_android_wallet\tags
+* src\com\bushstar\kobocoin_android_wallet\ui\tags => wallet\src\main\resources\com\bushstar\kobocoin_android_wallet\ui\tags
+* src\com\bushstar\kobocoin_android_wallet\util\tags => wallet\src\main\resources\com\bushstar\kobocoin_android_wallet\util\tags
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

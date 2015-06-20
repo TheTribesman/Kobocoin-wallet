@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values-cs/strings.xml -->
+    <eat-comment/>
+    <string name="about_author_googleplus_title">Autor na Google+</string>
+    <string name="about_author_twitter_title">Autor na Twitteru</string>
+    <string name="about_credits_icon_title">Aplikace používá ikonu od \'bitboy\'</string>
+    <string name="about_credits_kobocoinj_title">Aplikace používá kobocoinj %s</string>
+    <string name="about_credits_market_publisher_title">Ostatní autorovy aplikace</string>
+    <string name="about_credits_zxing_title">Aplikace používá \'zxing\'</string>
+    <string name="about_license_title">Licence</string>
+    <string name="about_market_app_title">Aplikace na Google Play</string>
+    <string name="about_title">O aplikaci</string>
+    <string name="address_book_activity_title">Adresář</string>
+    <string name="address_book_context_copy_to_clipboard_title">Zkopírovat do schránky</string>
+    <string name="address_book_context_edit_title">Editovat adresu</string>
+    <string name="address_book_context_remove_title">Odebrat adresu</string>
+    <string name="address_book_context_send_title">Poslat Kobocoiny na adresu</string>
+    <string name="address_book_context_show_qr_title">Zobrazit QR kód</string>
+    <string name="address_book_empty_text">Žádný záznam v adresáři</string>
+    <string name="button_add">Přidat</string>
+    <string name="button_cancel">Zrušit</string>
+    <string name="button_delete">Smazat</string>
+    <string name="button_dismiss">Zrušit</string>
+    <string name="button_help">Nápověda</string>
+    <string name="button_request_coins">Vyžádat Kobocoiny</string>
+    <string name="button_send_coins">Zaslat Kobocoiny</string>
+    <string name="button_share">Sdílet</string>
+    <string name="edit_address_book_entry_dialog_address_label">Adresa</string>
+    <string name="edit_address_book_entry_dialog_button_edit">Uložit</string>
+    <string name="edit_address_book_entry_dialog_label_label">Jméno</string>
+    <string name="edit_address_book_entry_dialog_title_add">Přidat adresu</string>
+    <string name="edit_address_book_entry_dialog_title_edit">Změnit adresu</string>
+    <string name="exchange_rates_fragment_empty_text">Nemohu zjistit směnný kurz</string>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values-cs/strings_help.xml -->
+    <eat-comment/>
+    <string name="help_request_coins">
+<![CDATA[
+		<p>
+			Pomocí tohoto dialogu můžete vyžádat Kobocoiny od někoho jiného (kdo by měl také mít nainstalovanou aplikaci Kobocoin Wallet).
+		</p>
+		<p>
+			Nejprve zadejte množství Kobocoinů, které chcete vyžádat.
+		</p>
+		<p>
+			Potom můžete protistraně nabídnout vygenerovaný QR kód k oskenování,
+			nebo můžete požadavek zaslat pomocí tlačítka sdílet v rychlé nabídce.
+			Druhá strana potom klikne na získanou adresu.
+		</p>
+		<p>
+			V obou případech bude odesílatel uvidí dialog na zasílání Kobocoinů s předvzplněnými údaji.
+			Pokud souhlasí, potvrdí zadané informace a dojde k transakci.
+		</p>
+	]]>
+	</string>
+    <string name="help_safety">
+<![CDATA[
+		<p>
+			Několik slov o bezpečnosti vašich Kobocoinů:
+		</p>
+		<p>
+			Kobocoiny v aplikaci Kobocoin Wallet jsou uloženy ve vašem zařízení.
+			<b>Pokud o zařízení přijdete, přijdete i o Kobocoiny v něm.</b>
+			Stejně jako při ztrátě normální peněženky.
+		</p>
+		<p>
+			<b>Před odinstalací aplikace Kobocoin Wallet</b> (nebo při odstraňování dat/wipe), <b> si přepošlete zůstatek do jiné peněženky</b>.
+			Jakékoliv zůstavší Bitcony budou nenávratně ztraceny.
+		</p>
+		<p>
+			<b>Transakce nemohou být zrušeny</b>.
+			Pokud pošlete Kobocoiny někam neznámo kam, neexistuje možnost, jak je získat zpět, jedině byste znali příjemce a on měl zrovna náladu je poctivě vrátit.
+		</p>
+		<p>
+			<b>Udržujte vašeho Androida v bezpečí!</b>
+			Instalujte pouze aplikace, kterým plně důvěřujete.
+			Existují škodlivé aplikace, které vás mohou o vaše Kobocoiny připravit.
+		</p>
+		<p>
+			Neriskujte zbytečně!
+			<b>V aplikaci Kobocoin Wallet mějte pouze malé částky</b> pro rychlé použití.
+		</p>
+	]]>
+	</string>
+    <string name="help_send_coins">
+<![CDATA[
+		<p>
+			Právě jste zahájil zasílání Kobocoinů.
+			Sem jste se musel dostat buď přes hlavní obrazovku aplikace, nebo pomocí klepnutí na speciální adresu v prohlížeči.
+		</p>
+		<p>
+			Nejprve zadejte adresu, na kterou chcete provést platbu.
+			Adresa se bude automaticky doplňovat (našeptávač), pokud již existuje ve vašem adresáři.
+			Můžete také naskenovat QR kód s adresou peněženky nebo požadavek na zaplacení stisknutím tlačítka s QR kódem.
+		</p>
+		<p>
+			V dalším kroku uvidíte, kolik Kobocoinů můžete momentálně utratit.
+			Jakýkoliv rozdíl vůči zůstatku zobrazenému na výchozí obrazovce je stále nepotvrzen a tudíž nemůže být utracen.
+		</p>
+		<p>
+			Nakonec zadejte částku, kterou chcete zaplatit.
+		</p>
+		<p>
+			Transakce můžete provádět, i když jste právě offline.
+			Budou provedeny při dalším spuštění aplikace Kobocoin Wallet.
+			Pokud chcete transakci provést co nejrychleji, ujistěte se, že máte rychlé připojení (například jste připojeni pomocí bezdrátové sítě).
+		</p>
+		<p>
+			Poznámka:
+			Transakce nemohou být zrušeny!
+			Vždy zkontrolujte adresu příjemce.
+		</p>
+	]]>
+	</string>
+    <string name="help_wallet">
+<![CDATA[
+		<p>
+			Horní levá část obrazovky zobrazuje Vaši aktuální Kobocoin adresu, kterou druhá strana potřebuje znát, aby Vám mohla zaslat platbu.
+			Kliknutím na adresu ji změníte.
+		</p>
+		<p>
+			QR kód na pravé straně obsahuje Vaši Kobocoin adresu a může být použit pro naskenování druhou stranou.
+			Klepněte na QR kód pro zobrazení větší verze.
+		</p>
+		<p>
+			Ve středu obrazovky je zobrazen aktuální zůstatek.
+			Hodnota zůstatků je zobrazena i v jiné zvolené měně.
+			Klepnutím na zůstatek zobrazíte seznam možných jiných měn, vybráním konkrétní měny tuto potom nastavíte jako výchozí.
+		</p>
+		<p>
+			Ve spodní části obrazovky je seznam transakcí, který bude samozřejmě na začátku používání aplikace prázdný.
+			Probíhající transakce jsou zobrazeny šedě, dokud nejsou potvrzeny.
+			Kliknutím na řádek záznamu můžete příjemce či odesilatele přidat do adresáře.
+			Táhnutím vlevo či vpravo je možné aplikovat na seznam filtr.
+		</p>
+		<p>
+			Můžete poslat nebo si vyžádat Kobocoiny klepnutím na patřičné tlačítko v akční nabídce.
+			Více možností je v nabídce nastavení.
+		</p>
+	]]>
+	</string>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values-cs/strings.xml -->
+    <eat-comment/>
+    <string name="notification_coins_received_msg">Obdrženo %s</string>
+    <string name="notification_peers_connected_msg">%d peerů připojeno</string>
+    <string name="request_coins_activity_title">Vyžádat Kobocoiny</string>
+    <string name="request_coins_clipboard_msg">Požadavek na platbu zkopírován do schránky</string>
+    <string name="request_coins_fragment_amount_label">Vyžadovaná částka (volitelně)</string>
+    <string name="request_coins_fragment_initiate_request_nfc">Nebo klepněte, pokud Vaše zařízení podporuje NFC.</string>
+    <string name="request_coins_fragment_initiate_request_qr">Dejte odesilateli oskenovat tento kód.</string>
+    <string name="request_coins_share_dialog_title">Sdílet požadavek na Kobocoiny…</string>
+    <string name="send_coins_activity_title">Zaslat Kobocoiny</string>
+    <string name="send_coins_error_msg">Problém při zasílání!</string>
+    <string name="send_coins_fragment_amount_label">Částka k zaplacení</string>
+    <string name="send_coins_fragment_button_send">Poslat</string>
+    <string name="send_coins_fragment_pending">(%s čeká na potvrzení)</string>
+    <string name="send_coins_fragment_receiving_address_error">Nesprávná Kobocoin Adresa!</string>
+    <string name="send_coins_fragment_receiving_address_hint">napište adresu či jméno</string>
+    <string name="send_coins_fragment_receiving_address_label">Zaplatit</string>
+    <string name="send_coins_sending_msg">Posílám…</string>
+    <string name="toast_wallet_reset">Zresetováno,\nobnova chvilku potrvá</string>
+    <string name="wallet_address_fragment_clipboard_msg">Adresa zkopírována do schránky</string>
+    <string name="wallet_address_fragment_your">Vaše Kobocoin Adresa:</string>
+    <string name="wallet_addresses_fragment_add_dialog_message">Kobocoin adresa se nedá smazat. Chcete přidat do peněženky novou adresu?</string>
+    <string name="wallet_addresses_fragment_add_dialog_title">Přidat Kobocoin adresu</string>
+    <string name="wallet_disclaimer_fragment_remind_safety">Použití na vlastní riziko. Více v &lt;u>nápovědě&lt;/u>.</string>
+    <string name="wallet_low_storage_dialog_button_apps">Spravovat aplikace</string>
+    <string name="wallet_low_storage_dialog_msg">Kobocoin Wallet používá vnitřní paměť zařízení pro ukládání transakcí a bloků. Pokud paměť dojde, aplikace
+		může přestat fungovat a můžete pozbýt Vaše Kobocoiny!\n\nChcete otevřít správce aplikací pro odinstalací nepotřebných aplikací?</string>
+    <string name="wallet_low_storage_dialog_title">Málo vnitřní paměti!</string>
+    <string name="wallet_options_donate">Přispět</string>
+    <string name="wallet_options_safety">Bezpečnost</string>
+    <string name="wallet_transactions_fragment_empty_text_received">Zatím žádné kobocoiny neobdrženy</string>
+    <string name="wallet_transactions_fragment_empty_text_sent">Zatím žádné kobocoiny neodeslány</string>
+    <string name="wallet_transactions_fragment_tab_all">Oba</string>
+    <string name="wallet_transactions_fragment_tab_received">Obdrženo</string>
+    <string name="wallet_transactions_fragment_tab_sent">Zasláno</string>
+</resources>

@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/values.xml -->
+    <eat-comment/>
+    <string-array name="preferences_precision_labels">
+		<item>KOBO, 8 digits</item>
+		<item>KOBO, 6 digits</item>
+		<item>KOBO, 4 digits</item>
+		<item>MANILLA, 2 digits</item>
+		<item>COWRIE, 0 digits</item>
+	</string-array>
+    <string-array name="preferences_precision_values">
+		<item>8</item>
+		<item>6</item>
+		<item>4</item>
+		<item>2/3</item>
+		<item>0/6</item>
+	</string-array>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/abs__attrs.xml -->
+    <eat-comment/>
+    <attr format="reference|color" name="background"/>
+    <attr format="reference|color" name="backgroundSplit"/>
+    <attr format="reference" name="divider"/>
+    <attr format="dimension" name="height"/>
+    <attr format="reference" name="subtitleTextStyle"/>
+    <attr format="reference" name="titleTextStyle"/>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/abs__bools.xml -->
+    <eat-comment/>
+    <bool name="abs__action_bar_embed_tabs">false</bool>
+    <bool name="abs__action_bar_expanded_action_views_exclusive">true</bool>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/abs__config.xml -->
+    <eat-comment/>
+    <bool name="abs__config_actionMenuItemAllCaps">true</bool>
+    <bool name="abs__config_allowActionMenuItemTextWithIcon">false</bool>
+    <bool name="abs__config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/abs__bools.xml -->
+    <eat-comment/>
+    <bool name="abs__split_action_bar_is_narrow">true</bool>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/abs__colors.xml -->
+    <eat-comment/>
+    <color name="abs__background_holo_dark">#ff000000</color>
+    <color name="abs__background_holo_light">#fff3f3f3</color>
+    <color name="abs__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="abs__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="abs__bright_foreground_holo_dark">@color/abs__background_holo_light</color>
+    <color name="abs__bright_foreground_holo_light">@color/abs__background_holo_dark</color>
+    <color name="abs__bright_foreground_inverse_holo_dark">@color/abs__bright_foreground_holo_light</color>
+    <color name="abs__bright_foreground_inverse_holo_light">@color/abs__bright_foreground_holo_dark</color>
+    <color name="abs__holo_blue_light">#ff33b5e5</color>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="bg_bright">#ffffffff</color>
+    <color name="bg_dialog_title">#ffb8b8b0</color>
+    <color name="bg_form">#ffe8e8f0</color>
+    <color name="bg_less_bright">#ffe8e8f0</color>
+    <color name="bg_list">#40ffffff</color>
+    <color name="bg_list_selected">#40808090</color>
+    <color name="bg_panel">#ffd8d8e0</color>
+    <color name="fg_error">#ffff0000</color>
+    <color name="fg_insignificant">#ffcccccc</color>
+    <color name="fg_less_significant">#ff666666</color>
+    <color name="fg_significant">#ff000000</color>
+    <color name="scan_dot">#ff6600</color>
+    <color name="scan_laser">#cc0000</color>
+    <color name="scan_mask">#60000000</color>
+    <color name="scan_result_dots">#c099cc00</color>
+    <color name="scan_result_view">#b0000000</color>
+    <declare-styleable name="SherlockActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr format="string" name="title"/><attr format="string" name="subtitle"/><attr name="titleTextStyle"/><attr name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr name="divider"/><attr name="background"/><attr format="reference|color" name="backgroundStacked"/><attr name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr format="dimension" name="itemPadding"/></declare-styleable>
+    <declare-styleable name="SherlockActionMenuItemView"><attr name="android:minWidth"/></declare-styleable>
+    <declare-styleable name="SherlockActionMode"><attr name="titleTextStyle"/><attr name="subtitleTextStyle"/><attr name="background"/><attr name="backgroundSplit"/><attr name="height"/></declare-styleable>
+    <declare-styleable name="SherlockActivityChooserView"><attr format="string" name="initialActivityCount"/><attr format="reference" name="expandActivityOverflowButtonDrawable"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="SherlockMenuGroup"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:checkableBehavior"/><attr name="android:visible"/><attr name="android:enabled"/></declare-styleable>
+    <declare-styleable name="SherlockMenuItem"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:title"/><attr name="android:titleCondensed"/><attr name="android:icon"/><attr name="android:alphabeticShortcut"/><attr name="android:numericShortcut"/><attr name="android:checkable"/><attr name="android:checked"/><attr name="android:visible"/><attr name="android:enabled"/><attr name="android:onClick"/><attr name="android:showAsAction"/><attr name="android:actionLayout"/><attr name="android:actionViewClass"/><attr name="android:actionProviderClass"/></declare-styleable>
+    <declare-styleable name="SherlockMenuView"><attr format="reference" name="itemTextAppearance"/><attr format="reference" name="horizontalDivider"/><attr format="reference" name="verticalDivider"/><attr format="color|reference" name="headerBackground"/><attr format="color|reference" name="itemBackground"/><attr format="reference" name="windowAnimationStyle"/><attr format="float" name="itemIconDisabledAlpha"/><attr format="boolean" name="preserveIconSpacing"/></declare-styleable>
+    <declare-styleable name="SherlockSearchView"><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/></declare-styleable>
+    <declare-styleable name="SherlockSpinner"><attr name="android:prompt"/><attr name="android:dropDownSelector"/><attr name="android:popupBackground"/><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/><attr name="android:dropDownWidth"/><attr name="android:popupPromptView"/><attr name="android:gravity"/></declare-styleable>
+    <declare-styleable name="SherlockTheme"><attr format="reference" name="actionBarTabStyle"/><attr format="reference" name="actionBarTabBarStyle"/><attr format="reference" name="actionBarTabTextStyle"/><attr format="reference" name="actionOverflowButtonStyle"/><attr format="reference" name="actionBarStyle"/><attr format="reference" name="actionBarSplitStyle"/><attr format="reference" name="actionBarWidgetTheme"/><attr format="dimension" name="actionBarSize"><enum name="wrap_content" value="0"/></attr><attr format="reference" name="actionBarDivider"/><attr format="reference" name="actionBarItemBackground"/><attr format="reference" name="actionMenuTextAppearance"/><attr format="color|reference" name="actionMenuTextColor"/><attr format="reference" name="actionModeStyle"/><attr format="reference" name="actionModeCloseButtonStyle"/><attr format="reference" name="actionModeBackground"/><attr format="reference" name="actionModeSplitBackground"/><attr format="reference" name="actionModeCloseDrawable"/><attr format="reference" name="actionModeShareDrawable"/><attr format="reference" name="actionModePopupWindowStyle"/><attr format="reference" name="buttonStyleSmall"/><attr format="reference" name="selectableItemBackground"/><attr format="reference" name="windowContentOverlay"/><attr format="reference" name="textAppearanceLargePopupMenu"/><attr format="reference" name="textAppearanceSmallPopupMenu"/><attr format="reference" name="textAppearanceSmall"/><attr format="color" name="textColorPrimary"/><attr format="color" name="textColorPrimaryDisableOnly"/><attr format="color" name="textColorPrimaryInverse"/><attr format="reference" name="spinnerItemStyle"/><attr format="reference" name="spinnerDropDownItemStyle"/><attr format="reference" name="searchAutoCompleteTextView"/><attr format="reference" name="searchDropdownBackground"/><attr format="reference" name="searchViewCloseIcon"/><attr format="reference" name="searchViewGoIcon"/><attr format="reference" name="searchViewSearchIcon"/><attr format="reference" name="searchViewVoiceIcon"/><attr format="reference" name="searchViewEditQuery"/><attr format="reference" name="searchViewEditQueryBackground"/><attr format="reference" name="searchViewTextField"/><attr format="reference" name="searchViewTextFieldRight"/><attr format="reference|color" name="textColorSearchUrl"/><attr format="dimension" name="searchResultListItemHeight"/><attr format="reference" name="textAppearanceSearchResultTitle"/><attr format="reference" name="textAppearanceSearchResultSubtitle"/><attr format="dimension" name="listPreferredItemHeightSmall"/><attr format="dimension" name="listPreferredItemPaddingLeft"/><attr format="dimension" name="listPreferredItemPaddingRight"/><attr format="reference" name="textAppearanceListItemSmall"/><attr format="dimension" name="windowMinWidthMajor"/><attr format="dimension" name="windowMinWidthMinor"/><attr format="reference" name="dividerVertical"/><attr format="reference" name="actionDropDownStyle"/><attr format="reference" name="actionButtonStyle"/><attr format="reference" name="homeAsUpIndicator"/><attr format="reference" name="dropDownListViewStyle"/><attr format="reference" name="popupMenuStyle"/><attr format="dimension" name="dropdownListPreferredItemHeight"/><attr format="reference" name="actionSpinnerItemStyle"/><attr format="boolean" name="windowNoTitle"/><attr format="boolean" name="windowActionBar"/><attr format="boolean" name="windowActionBarOverlay"/><attr format="boolean" name="windowActionModeOverlay"/><attr format="boolean" name="windowSplitActionBar"/><attr format="reference" name="listPopupWindowStyle"/><attr format="reference" name="activityChooserViewStyle"/><attr format="reference" name="activatedBackgroundIndicator"/><attr format="reference" name="dropDownHintAppearance"/><attr format="boolean" name="absForceOverflow"/><attr name="android:windowIsFloating"/></declare-styleable>
+    <declare-styleable name="SherlockView"><attr name="android:focusable"/></declare-styleable>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/abs__dimens.xml -->
+    <eat-comment/>
+    <dimen name="abs__action_bar_default_height">48dip</dimen>
+    <dimen name="abs__action_bar_icon_vertical_padding">8dip</dimen>
+    <dimen name="abs__action_bar_subtitle_bottom_margin">5dip</dimen>
+    <dimen name="abs__action_bar_subtitle_text_size">14dp</dimen>
+    <dimen name="abs__action_bar_subtitle_top_margin">-3dp</dimen>
+    <dimen name="abs__action_bar_title_text_size">18dp</dimen>
+    <dimen name="abs__action_button_min_width">56dip</dimen>
+    <dimen name="abs__alert_dialog_title_height">64dip</dimen>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/abs__config.xml -->
+    <eat-comment/>
+    <dimen name="abs__config_prefDialogWidth">320dp</dimen>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/abs__dimens.xml -->
+    <eat-comment/>
+    <item name="abs__dialog_min_width_major" type="dimen">65%</item>
+    <item name="abs__dialog_min_width_minor" type="dimen">95%</item>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="abs__dropdownitem_icon_width">32dip</dimen>
+    <dimen name="abs__dropdownitem_text_padding_left">8dip</dimen>
+    <dimen name="abs__dropdownitem_text_padding_right">8dip</dimen>
+    <dimen name="abs__search_view_preferred_width">320dip</dimen>
+    <dimen name="abs__search_view_text_min_width">160dip</dimen>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="divider_currency_padding">0dp</dimen>
+    <dimen name="font_size_huge">42sp</dimen>
+    <dimen name="font_size_large">24sp</dimen>
+    <dimen name="font_size_normal">18sp</dimen>
+    <dimen name="font_size_small">15sp</dimen>
+    <dimen name="font_size_tiny">12sp</dimen>
+    <dimen name="font_size_xlarge">28sp</dimen>
+    <dimen name="list_entry_padding_horizontal">12dp</dimen>
+    <dimen name="list_entry_padding_horizontal_lax">20dp</dimen>
+    <dimen name="list_entry_padding_vertical">6dp</dimen>
+    <dimen name="list_entry_padding_vertical_lax">10dp</dimen>
+    <dimen name="symbol_size_normal">14sp</dimen>
+    <dimen name="wallet_address_qr_size">96dp</dimen>
+    <dimen name="wallet_address_qr_size_large">128dp</dimen>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/abs__ids.xml -->
+    <eat-comment/>
+    <item name="abs__action_menu_divider" type="id"/>
+    <item name="abs__action_menu_presenter" type="id"/>
+    <item name="abs__home" type="id"/>
+    <item name="abs__progress_circular" type="id"/>
+    <item name="abs__progress_horizontal" type="id"/>
+    <item name="abs__up" type="id"/>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="action_bar_fragment" type="id"/>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/abs__dimens.xml -->
+    <eat-comment/>
+    <integer name="abs__max_action_buttons">2</integer>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about_author_googleplus_title">Author at Google+</string>
+    <string name="about_author_twitter_title">Author at Twitter</string>
+    <string name="about_copyright_title">Copyright</string>
+    <string name="about_credits_icon_title">This app is using an icon by \'bitboy\'</string>
+    <string name="about_credits_kobocoinj_title">This app is using kobocoinj %s</string>
+    <string name="about_credits_market_publisher_title">Other apps from the author</string>
+    <string name="about_credits_zxing_title">This app is using \'zxing\'</string>
+    <string name="about_license_title">License</string>
+    <string name="about_market_app_summary">Review or rate the app</string>
+    <string name="about_market_app_title">Google Play page</string>
+    <string name="about_source_title">Source Code</string>
+    <string name="about_title">About</string>
+    <string name="about_version_title">Version</string>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/abs__strings.xml -->
+    <eat-comment/>
+    <string name="abs__action_bar_home_description">Navigate home</string>
+    <string name="abs__action_bar_up_description">Navigate up</string>
+    <string name="abs__action_menu_overflow_description">More options</string>
+    <string name="abs__action_mode_done">Done</string>
+    <string name="abs__activity_chooser_view_dialog_title_default">Select activity</string>
+    <string name="abs__activity_chooser_view_see_all">See all...</string>
+    <string name="abs__activitychooserview_choose_application">Choose an application</string>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/values/values.xml -->
+    <eat-comment/>
+    <string name="abs__searchview_description_clear">Clear query</string>
+    <string name="abs__searchview_description_query">Search query</string>
+    <string name="abs__searchview_description_search">Search</string>
+    <string name="abs__searchview_description_submit">Submit query</string>
+    <string name="abs__searchview_description_voice">Voice search</string>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/abs__strings.xml -->
+    <eat-comment/>
+    <string name="abs__share_action_provider_share_with">Share with...</string>
+    <string name="abs__shareactionprovider_share_with">Share with</string>
+    <string name="abs__shareactionprovider_share_with_application">Share with <ns1:g example="Bluetooth" id="application_name">%s</ns1:g></string>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_browse">Browse</string>
+    <string name="address_book_activity_title">Address Book</string>
+    <string name="address_book_context_copy_to_clipboard_title">Copy to clipboard</string>
+    <string name="address_book_context_default_title">Set as default address</string>
+    <string name="address_book_context_edit_title">Edit address</string>
+    <string name="address_book_context_remove_title">Remove address</string>
+    <string name="address_book_context_send_title">Send Kobocoins to address</string>
+    <string name="address_book_context_show_qr_title">Show QR code</string>
+    <string name="address_book_empty_text">No entries in address book</string>
+    <string name="address_book_list_receiving_title">Your addresses</string>
+    <string name="address_book_list_sending_title">Sending addresses</string>
+    <string name="address_book_options_paste_from_clipboard_empty">Clipboard is empty</string>
+    <string name="address_book_options_paste_from_clipboard_invalid">Data from clipboard is unrecognizable</string>
+    <string name="address_book_options_paste_from_clipboard_title">Paste from clipboard</string>
+    <string name="address_book_options_scan_invalid">Scanned data is unrecognizable</string>
+    <string name="address_book_options_scan_title">Scan address</string>
+    <string name="address_book_row_message_compromised_key">This address might be compromised. You should not use it any more for receiving coins.</string>
+    <string name="address_unlabeled">(unlabeled)</string>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/values.xml -->
+    <eat-comment/>
+    <string name="app_name">Kobocoin</string>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="blockchain_state_progress_days">%1$s, %2$d days behind</string>
+    <string name="blockchain_state_progress_downloading">Synchronizing with network</string>
+    <string name="blockchain_state_progress_hours">%1$s, %2$d hours behind</string>
+    <string name="blockchain_state_progress_months">%1$s, %2$d months behind</string>
+    <string name="blockchain_state_progress_problem_network">Synchronizing: Network problem</string>
+    <string name="blockchain_state_progress_problem_storage">Synchronizing: Storage problem</string>
+    <string name="blockchain_state_progress_stalled">Synchronization stalled</string>
+    <string name="blockchain_state_progress_weeks">%1$s, %2$d weeks behind</string>
+    <string name="button_add">Add</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_copy">Copy</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_dismiss">Dismiss</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_edit_address">Add/edit address</string>
+    <string name="button_help">Help</string>
+    <string name="button_ok">OK</string>
+    <string name="button_paste">Paste</string>
+    <string name="button_request_coins">Request coins</string>
+    <string name="button_retry">Retry</string>
+    <string name="button_scan">Scan</string>
+    <string name="button_send_coins">Send coins</string>
+    <string name="button_set_as_default">Set as default</string>
+    <string name="button_settings">Settings</string>
+    <string name="button_share">Share</string>
+    <string name="edit_address_book_entry_dialog_address_label">Address</string>
+    <string name="edit_address_book_entry_dialog_button_edit">Save</string>
+    <string name="edit_address_book_entry_dialog_label_label">Name</string>
+    <string name="edit_address_book_entry_dialog_title_add">Add address</string>
+    <string name="edit_address_book_entry_dialog_title_edit">Edit address</string>
+    <string name="error_bluetooth">Bluetooth error %1$s</string>
+    <string name="error_http">HTTP error %1$s:\n%2$s</string>
+    <string name="error_io">I/O error: %s</string>
+    <string name="exchange_rates_activity_title">Exchange Rates</string>
+    <string name="exchange_rates_context_set_as_default_title">Set as default foreign currency</string>
+    <string name="exchange_rates_fragment_balance">balance</string>
+    <string name="exchange_rates_fragment_default">(default)</string>
+    <string name="exchange_rates_fragment_empty_search">Could not find exchange rate.</string>
+    <string name="exchange_rates_fragment_empty_text">Could not load exchange rates.</string>
+    <string name="exchange_rates_fragment_rate">rate</string>
+    <string name="exchange_rates_fragment_source">Price from %s</string>
+    <string name="exchange_rates_options_search">Search exchange rate</string>
+    <string name="export_keys_dialog_button_archive">Archive</string>
+    <string name="export_keys_dialog_button_export">Back up</string>
+    <string name="export_keys_dialog_failure">Your wallet could not be backed up:\n%s</string>
+    <string name="export_keys_dialog_mail_intent_chooser">Archive wallet using…</string>
+    <string name="export_keys_dialog_mail_intent_failed">Archiving wallet failed.</string>
+    <string name="export_keys_dialog_mail_subject">Kobocoin Wallet backup</string>
+    <string name="export_keys_dialog_mail_text">The attached encrypted file contains Kobocoin private keys and should be kept safe at all times. Don\'t forget the encryption password!</string>
+    <string name="export_keys_dialog_message">Your wallet will be encrypted with the chosen password and written to external storage.</string>
+    <string name="export_keys_dialog_success"><![CDATA[<p>Your wallet has been backed up to <tt>%s</tt></p><p>If your device has a removable SD card, your backup <i>should</i> be on that card. Remove it and keep it at a safe place. If the card is <i>not</i> removable, you need to archive your backup to some other place than your device.</p><p><b>If the only place your backup exists is on your device, you run the risk of losing both at the same time!</b></p><p>In any case, make sure you remember your backup password. Do you want to archive your wallet now?</p>]]></string>
+    <string name="export_keys_dialog_title">Back up wallet</string>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/strings_help.xml -->
+    <eat-comment/>
+    <string name="help_request_coins">
+<![CDATA[
+		<p>
+			Using this dialog, you can request coins from another person (who should already have installed Kobocoin Wallet).
+		</p>
+		<p>
+			First, you can enter an amount of Kobocoins to request.
+		</p>
+		<p>
+			Then, you either have the generated QR code scanned by the other person.
+			Or, you can send your request to a remote person with the share button in the action bar.
+			The other person will have to click the Kobocoin URL.
+		</p>
+		<p>
+			Either way, the other person will be presented a dialog for sending coins with all fields pre-populated.
+			If she accepts, all she needs to do is sending the payment.
+		</p>
+	]]>
+	</string>
+    <string name="help_safety">
+<![CDATA[
+		<p>
+			<b>Important safety notes:</b>
+		</p>
+		<p>
+			Kobocoins are stored on the device.
+			<b>If you lose it, you\'ll lose your Kobocoins.</b>
+		</p>
+		<p>
+			This means you need to <b>back up your wallet</b>!
+			Use the in-app backup facility for this, rather than a third party backup app.
+			Keep your backup safe and remember the password.
+		</p>
+		<p>
+			<b>Before uninstalling</b> (or clearing app data/wiping your device), <b>transfer your Kobocoins to another wallet</b>.
+			Remaining Kobocoins will be lost.
+		</p>
+		<p>
+			<b>Payments are irreversible</b>.
+			If you send your Kobocoins into the void, there is almost no way to get them back.
+		</p>
+		<p>
+			<b>Keep your mobile device safe!</b>
+			Do not root your device.
+			Do only install apps you fully trust.
+			Malicious apps could be trying to steal your wallet.
+		</p>
+		<p>
+			Keep the risk low!
+			<b>Only use with small amounts</b> for day use.
+		</p>
+	]]>
+	</string>
+    <string name="help_send_coins">
+<![CDATA[
+		<p>
+			You have initiated the process of sending coins.
+			You came here either through the main screen or by clicking on a Kobocoin URL in your mobile browser.
+		</p>
+		<p>
+			First, you enter the Kobocoin address to pay to.
+			The address will autocomplete from known entries in your address book.
+			You can also scan QR codes with Kobocoin addresses or Kobocoin requests by pressing the QR button in the action bar.
+		</p>
+		<p>
+			Next, you can see how many Kobocoins you can spend at the moment.
+			Any difference to the balance from the main screen is still unconfirmed and can thus not yet be spent.
+		</p>
+		<p>
+			Last, you enter the amount to pay.
+		</p>
+		<p>
+			You can enter a payment while being offline.
+			It will be sent on next restart of Kobocoin Wallet.
+			If you want a payment to be processed as fast as possible, make sure you are well connected (i.e. on a WLAN).
+		</p>
+		<p>
+			Note:
+			Payments are irreversible!
+			Always check the receiving address.
+		</p>
+	]]>
+	</string>
+    <string name="help_wallet">
+<![CDATA[
+		<p>
+			The upper left part of the screen displays your selected Kobocoin address that other people need to know in order to send you Kobocoins.
+			Tap to change the address.
+		</p>
+		<p>
+			The QR code on the right contains your kobocoin address and can be used for scanning by another party.
+			Tap on the QR code to get a larger version of it.
+		</p>
+		<p>
+			In the middle of the screen, your balance is displayed.
+			The value of your wallet is also shown in one selected local currency.
+			Tap on balance to display list of all local currencies, and tap on one of the currencies to select it as default.
+		</p>
+		<p>
+			The bottom of the screen is covered by your transactions list, which is empty at the beginning.
+			Pending transactions are greyed out until they are confirmed.
+			Tap on one entry to add the senders or receivers address to the address book.
+			Swipe left or right to apply filters to the list.
+		</p>
+		<p>
+			You can send or request coins by tapping the buttons in the action bar.
+			More options are available in the options menu.
+		</p>
+	]]>
+	</string>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="import_export_keys_dialog_failure_title">Error</string>
+    <string name="import_export_keys_dialog_password">password</string>
+    <string name="import_export_keys_dialog_show">Show password</string>
+    <string name="import_keys_dialog_button_import">Restore</string>
+    <string name="import_keys_dialog_button_reset_blockchain">Reset</string>
+    <string name="import_keys_dialog_failure">Wallet could not be restored:\n\n%s\n\nBad password?</string>
+    <string name="import_keys_dialog_file_created_automatic">automatic backup %s</string>
+    <string name="import_keys_dialog_file_created_manual">manually backed up %s</string>
+    <string name="import_keys_dialog_file_security_encrypted">password encrypted</string>
+    <string name="import_keys_dialog_file_security_external">external storage</string>
+    <string name="import_keys_dialog_file_security_internal">app-private storage</string>
+    <string name="import_keys_dialog_file_security_unencrypted">unencrypted</string>
+    <string name="import_keys_dialog_message">Pick a wallet backup file from external or app-private storage:</string>
+    <string name="import_keys_dialog_success_existing">%d private keys were not restored, because you already have them in your wallet.</string>
+    <string name="import_keys_dialog_success_imported">%d private keys were restored.</string>
+    <string name="import_keys_dialog_success_reset">You need to reset your blockchain in order to update your balance. Would you like to?</string>
+    <string name="import_keys_dialog_title">Restore wallet</string>
+    <string name="import_keys_dialog_warning">Important: Do not load private keys from dubious sources! Others can gain control over your funds if you do.</string>
+    <string name="import_keys_intent_filter_action">Restore wallet</string>
+    <string name="input_parser_cannot_classify">Cannot recognize input:\n%s</string>
+    <string name="input_parser_invalid_address">Got invalid kobocoin address!\n(Mixing up Mainnet/Testnet?)</string>
+    <string name="input_parser_invalid_kobocoin_uri">Invalid Kobocoin URI:\n%s</string>
+    <string name="input_parser_invalid_paymentrequest">Invalid payment request:\n%s</string>
+    <string name="input_parser_invalid_transaction">Invalid transaction:\n%s</string>
+    <string name="input_parser_io_error">Cannot read data:\n%s</string>
+    <string name="input_parser_unverifyable_paymentrequest">Cannot verify payment request:\n%s</string>
+    <string name="network_monitor_activity_title">Network Monitor</string>
+    <string name="network_monitor_block_list_title">Blocks</string>
+    <string name="network_monitor_peer_list_title">Peers</string>
+    <string name="notification_coins_received_msg">Received %s</string>
+    <string name="notification_peers_connected_msg">%d peers connected</string>
+    <string name="peer_list_fragment_empty">No peers connected</string>
+    <string name="peer_list_row_ping_time">⇆ %d ms</string>
+    <string name="preferences_activity_title">Settings</string>
+    <string name="preferences_category_diagnostics">Diagnostics</string>
+    <string name="preferences_category_labs">Labs</string>
+    <string name="preferences_category_main">Preferences</string>
+    <string name="preferences_connectivity_notification_summary">Show current number of connected peers in the notification area.</string>
+    <string name="preferences_connectivity_notification_title">Connectivity Indicator</string>
+    <string name="preferences_data_usage_summary">Show options to restrict data usage on mobile networks.</string>
+    <string name="preferences_data_usage_title">Data usage</string>
+    <string name="preferences_initiate_reset_dialog_message">Would you like to reset and replay the blockchain?\n\nThis will temporarily hide your wallet balance and remove transactions. Both will recover as blockchain sync progresses.</string>
+    <string name="preferences_initiate_reset_dialog_positive">Reset</string>
+    <string name="preferences_initiate_reset_summary">Reset blockchain, transactions and wallet balance. Replay will take a while.</string>
+    <string name="preferences_initiate_reset_title">Reset Blockchain</string>
+    <string name="preferences_precision_summary">Unit to show amounts in. This does not affect computations.</string>
+    <string name="preferences_precision_title">Denomination and precision</string>
+    <string name="preferences_report_issue_summary">Collect information about your issue and email your report to the developers.</string>
+    <string name="preferences_report_issue_title">Report Issue</string>
+    <string name="preferences_trusted_peer_only_summary">Prevents connecting to any peers besides the trusted peer.</string>
+    <string name="preferences_trusted_peer_only_title">Skip Regular Peer Discovery</string>
+    <string name="preferences_trusted_peer_summary">IP or hostname of single peer to connect to.</string>
+    <string name="preferences_trusted_peer_title">Trusted Peer</string>
+    <string name="report_issue_dialog_collect_application_log">Append application log</string>
+    <string name="report_issue_dialog_collect_device_info">Append device information</string>
+    <string name="report_issue_dialog_collect_installed_packages">Append list of installed packages</string>
+    <string name="report_issue_dialog_collect_wallet_dump">Append wallet dump</string>
+    <string name="report_issue_dialog_description">issue description</string>
+    <string name="report_issue_dialog_mail_intent_chooser">Send report using…</string>
+    <string name="report_issue_dialog_mail_intent_failed">Sending report failed.</string>
+    <string name="report_issue_dialog_message_crash">Would you like to send a crash report, helping to fix this issue in the future?</string>
+    <string name="report_issue_dialog_message_issue">Please describe your issue precisely enough to be reproduced. If it is specific to your wallet, consider appending the dump.</string>
+    <string name="report_issue_dialog_report">Report</string>
+    <string name="report_issue_dialog_title_crash">Previous crash detected</string>
+    <string name="report_issue_dialog_title_issue">Report issue</string>
+    <string name="request_coins_activity_title">Request Kobocoins</string>
+    <string name="request_coins_clipboard_msg">Kobocoin request copied to clipboard</string>
+    <string name="request_coins_fragment_accept_bluetooth_payment">Accept payment via Bluetooth for more reliable processing</string>
+    <string name="request_coins_fragment_amount_label">Requested amount (optional)</string>
+    <string name="request_coins_fragment_initiate_request_nfc">Or tap an NFC enabled device.</string>
+    <string name="request_coins_fragment_initiate_request_qr">Have this code scanned by the sender.</string>
+    <string name="request_coins_options_local_app_title">Request from local app</string>
+    <string name="request_coins_share_dialog_title">Share request for Kobocoins…</string>
+    <string name="restore_wallet_dialog_replace_warning">You are about to replace your current wallet. Any coins in the current wallet will be lost unless you\'ve got a separate backup of that.</string>
+    <string name="restore_wallet_dialog_success">Wallet was restored.</string>
+    <string name="scan_camera_problem_dialog_message">The camera has a problem. You probably need to restart the device.</string>
+    <string name="scan_camera_problem_dialog_title">Sorry</string>
+    <string name="send_coins_activity_title">Send Kobocoins</string>
+    <string name="send_coins_address_context_clear_title">Enter new address</string>
+    <string name="send_coins_error_msg">Problem sending coins!</string>
+    <string name="send_coins_failed_msg">Failed!</string>
+    <string name="send_coins_fragment_amount_label">Amount to pay</string>
+    <string name="send_coins_fragment_button_back">Back</string>
+    <string name="send_coins_fragment_button_send">Send</string>
+    <string name="send_coins_fragment_direct_payment_ack">Your payment was successfully sent directly.</string>
+    <string name="send_coins_fragment_direct_payment_enable">Send payment directly to the payee.</string>
+    <string name="send_coins_fragment_direct_payment_failed_msg">Your payment will still be broadcasted via the P2P network.</string>
+    <string name="send_coins_fragment_direct_payment_failed_title">Direct payment failed</string>
+    <string name="send_coins_fragment_direct_payment_nack">Your payment was rejected via direct connection.</string>
+    <string name="send_coins_fragment_insufficient_money_msg1">You\'re missing %s.</string>
+    <string name="send_coins_fragment_insufficient_money_msg2">Do you want to pay with all you have?</string>
+    <string name="send_coins_fragment_insufficient_money_title">Not enough available coins</string>
+    <string name="send_coins_fragment_payee_verified_by">verified by: %s</string>
+    <string name="send_coins_fragment_payee_verified_by_unknown">unknown</string>
+    <string name="send_coins_fragment_pending">(%s waiting for confirmation)</string>
+    <string name="send_coins_fragment_receiving_address_complex">complex\naddress</string>
+    <string name="send_coins_fragment_receiving_address_error">Invalid Kobocoin Address!</string>
+    <string name="send_coins_fragment_receiving_address_error_cross_network">Cannot use %s address with this wallet!</string>
+    <string name="send_coins_fragment_receiving_address_error_cross_network_unknown">Cannot use address of unknown network with this wallet!</string>
+    <string name="send_coins_fragment_receiving_address_hint">type address or name</string>
+    <string name="send_coins_fragment_receiving_address_label">Pay to</string>
+    <string name="send_coins_fragment_request_payment_request_failed_title">Fetching signature failed</string>
+    <string name="send_coins_fragment_request_payment_request_progress">Fetching signature from %s…</string>
+    <string name="send_coins_fragment_request_payment_request_wrong_signature">Wrong signature!</string>
+    <string name="send_coins_options_empty">Empty wallet</string>
+    <string name="send_coins_preparation_msg">Signing…</string>
+    <string name="send_coins_sending_msg">Sending…</string>
+    <string name="send_coins_sent_msg">Sent!</string>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/values.xml -->
+    <eat-comment/>
+    <string name="symbol_from">←</string>
+    <string name="symbol_internal">⇄</string>
+    <string name="symbol_to">→</string>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="time_today">today</string>
+    <string name="toast_wallet_reset">Wallet was reset,\nwill take some time to recover</string>
+    <string name="transaction_row_message_own_unbroadcasted">This payment has not been transmitted yet.</string>
+    <string name="transaction_row_message_purpose_key_rotation">This transaction strengthens your wallet against theft. &lt;u>More info.&lt;/u></string>
+    <string name="transaction_row_message_received_dead">This payment has been reversed by the sender.</string>
+    <string name="transaction_row_message_received_direct">This payment has been received directly. There is a risk it might never become spendable.</string>
+    <string name="transaction_row_message_received_dust">This small amount can probably never be spent economically.</string>
+    <string name="transaction_row_message_received_unconfirmed_locked">This payment is not standard and should not be trusted.</string>
+    <string name="transaction_row_message_received_unconfirmed_unlocked">This payment should become spendable in a few minutes.</string>
+    <string name="wallet_address_fragment_clipboard_msg">Kobocoin address copied to clipboard</string>
+    <string name="wallet_address_fragment_your">Your Kobocoin Address:</string>
+    <string name="wallet_addresses_fragment_add_dialog_message">Kobocoin addresses cannot be deleted. Do you want to add a new address to your wallet?</string>
+    <string name="wallet_addresses_fragment_add_dialog_title">Add Kobocoin address</string>
+    <string name="wallet_balance_fragment_replaying">Balance is unavailable during replay.</string>
+    <string name="wallet_disclaimer_fragment_remind_backup">You need to &lt;u>back up your wallet&lt;/u>!</string>
+    <string name="wallet_disclaimer_fragment_remind_safety">Use at your own risk. Read the &lt;u>safety notes&lt;/u>.</string>
+    <string name="wallet_donate_address_label">Donation for Kobocoin Wallet</string>
+    <string name="wallet_low_storage_dialog_button_apps">Manage Apps</string>
+    <string name="wallet_low_storage_dialog_msg">Kobocoin Wallet uses internal storage for remembering transactions and blocks. If it runs out of space, it will stop working and your Kobocoins will be at risk!\n\nDo you want to open the Application Manager to uninstall unneeded apps?</string>
+    <string name="wallet_low_storage_dialog_title">Internal Device Storage Space Low!</string>
+    <string name="wallet_old_sdk_dialog_message">Chances are that one of the next releases of Kobocoin Wallet will not support your device any more. In some cases, it can get difficult to spend coins on this device.\n\nUnless you know what you are doing, it is recommended to move out your coins soon.</string>
+    <string name="wallet_old_sdk_dialog_title">Android version is out of date</string>
+    <string name="wallet_options_donate">Tip / Donate</string>
+    <string name="wallet_options_safety">Safety notes</string>
+    <string name="wallet_options_safety_menu">Safety</string>
+    <string name="wallet_timeskew_dialog_msg">Your device time is off by %d minutes. You probably cannot send or receive Kobocoins due to this problem.\n\nYou should check and correct your time and timezone settings.</string>
+    <string name="wallet_timeskew_dialog_title">Check your time settings!</string>
+    <string name="wallet_transactions_context_show_qr_title">Show QR code</string>
+    <string name="wallet_transactions_fragment_coinbase">mined</string>
+    <string name="wallet_transactions_fragment_empty_text_howto">How to get Kobocoins?\n\nTrade for traditional money,\nsell goods or services or\nearn by working.</string>
+    <string name="wallet_transactions_fragment_empty_text_received">No Kobocoins received so far.</string>
+    <string name="wallet_transactions_fragment_empty_text_sent">No Kobocoins sent so far.</string>
+    <string name="wallet_transactions_fragment_internal">internal</string>
+    <string name="wallet_transactions_fragment_tab_all">Both</string>
+    <string name="wallet_transactions_fragment_tab_received">Received</string>
+    <string name="wallet_transactions_fragment_tab_sent">Sent</string>
+    <string name="wallet_transactions_row_warning_backup">Congratulations, you received your first payment! Have you already &lt;u>backed up your wallet&lt;/u>, to protect against loss?</string>
+    <string name="wallet_version_dialog_button_binary">Download</string>
+    <string name="wallet_version_dialog_button_market">Google Play</string>
+    <string name="wallet_version_dialog_msg">This version fixes important bugs. For details, see the change log on Google Play.</string>
+    <string name="wallet_version_dialog_msg_deprecated">If you don\'t see an update, this probably means your version of Android isn\'t supported any more.</string>
+    <string name="wallet_version_dialog_title">A new version is available!</string>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/abs__styles.xml -->
+    <eat-comment/>
+    <style name="DialogWindowTitle.Sherlock" parent="Widget">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@style/TextAppearance.Sherlock.DialogWindowTitle</item>
+        <item name="android:minHeight">@dimen/abs__alert_dialog_title_height</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+    </style>
+    <style name="DialogWindowTitle.Sherlock.Light" parent="Widget">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@style/TextAppearance.Sherlock.Light.DialogWindowTitle</item>
+        <item name="android:minHeight">@dimen/abs__alert_dialog_title_height</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+    </style>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="My.TextAppearance.Widget.ActionBar.Subtitle" parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle">
+		<item name="android:textColor">@android:color/white</item>
+		<item name="android:textStyle">normal</item>
+	</style>
+    <style name="My.TextAppearance.Widget.ActionBar.Title" parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Title">
+		<item name="android:textColor">@android:color/white</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:shadowColor">@android:color/black</item>
+		<item name="android:shadowRadius">1</item>
+	</style>
+    <style name="My.TextAppearance.Widget.ActionMode.Subtitle" parent="@style/TextAppearance.Sherlock.Widget.ActionMode.Subtitle">
+		<item name="android:textColor">@android:color/white</item>
+		<item name="android:textStyle">normal</item>
+	</style>
+    <style name="My.TextAppearance.Widget.ActionMode.Title" parent="@style/TextAppearance.Sherlock.Widget.ActionMode.Title">
+		<item name="android:textColor">@android:color/white</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:shadowColor">@android:color/black</item>
+		<item name="android:shadowRadius">1</item>
+	</style>
+    <style name="My.Theme" parent="@style/Theme.Sherlock.Light.DarkActionBar.ForceOverflow">
+		<item name="actionBarStyle">@style/My.Widget.ActionBar</item>
+		<item name="android:actionBarStyle">@style/My.Widget.ActionBar</item>
+		<item name="actionModeStyle">@style/My.Widget.ActionMode</item>
+		<item name="android:actionModeStyle">@style/My.Widget.ActionMode</item>
+		<item name="android:editTextStyle">@style/My.Widget.EditText</item>
+		<item name="android:autoCompleteTextViewStyle">@style/My.Widget.AutoCompleteTextView</item>
+		<item name="android:spinnerStyle">@style/My.Widget.Spinner</item>
+		<item name="android:checkboxStyle">@style/My.Widget.CompoundButton.CheckBox</item>
+	</style>
+    <style name="My.Theme.Dialog" parent="@style/Theme.Sherlock.Light.Dialog"/>
+    <style name="My.Theme.Fullscreen" parent="@android:style/Theme.NoTitleBar.Fullscreen"/>
+    <style name="My.Widget.ActionBar" parent="@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+		<item name="background">@drawable/action_bar_background</item>
+		<item name="android:background">@drawable/action_bar_background</item>
+		<item name="titleTextStyle">@style/My.TextAppearance.Widget.ActionBar.Title</item>
+		<item name="android:titleTextStyle">@style/My.TextAppearance.Widget.ActionBar.Title</item>
+		<item name="subtitleTextStyle">@style/My.TextAppearance.Widget.ActionBar.Subtitle</item>
+		<item name="android:subtitleTextStyle">@style/My.TextAppearance.Widget.ActionBar.Subtitle</item>
+	</style>
+    <style name="My.Widget.ActionMode" parent="@style/Widget.Sherlock.Light.ActionMode.Inverse">
+		<item name="background">@drawable/action_mode_background</item>
+		<item name="android:background">@drawable/action_mode_background</item>
+		<item name="titleTextStyle">@style/My.TextAppearance.Widget.ActionMode.Title</item>
+		<item name="android:titleTextStyle">@style/My.TextAppearance.Widget.ActionMode.Title</item>
+		<item name="subtitleTextStyle">@style/My.TextAppearance.Widget.ActionMode.Subtitle</item>
+		<item name="android:subtitleTextStyle">@style/My.TextAppearance.Widget.ActionMode.Subtitle</item>
+	</style>
+    <style name="My.Widget.AutoCompleteTextView" parent="@android:style/Widget.AutoCompleteTextView">
+		<item name="android:background">@drawable/edit_text</item>
+	</style>
+    <style name="My.Widget.Button.Borderless" parent="@android:style/Widget">
+		<item name="android:background">@android:drawable/list_selector_background</item>
+		<item name="android:paddingLeft">8dp</item>
+		<item name="android:paddingRight">8dp</item>
+		<item name="android:drawablePadding">8dp</item>
+		<item name="android:minHeight">48dp</item>
+	</style>
+    <style name="My.Widget.CompoundButton.CheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+		<item name="android:button">@drawable/btn_check</item>
+		<item name="android:paddingLeft">42dp</item>
+	</style>
+    <style name="My.Widget.EditText" parent="@android:style/Widget.EditText">
+		<item name="android:background">@drawable/edit_text</item>
+	</style>
+    <style name="My.Widget.Spinner" parent="@android:style/Widget.Spinner">
+		<item name="android:background">@drawable/spinner_background</item>
+	</style>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/abs__styles.xml -->
+    <eat-comment/>
+    <style name="Sherlock.__TextAppearance.Small" parent="Widget">
+      <item name="android:textSize">14sp</item>
+      <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/abs__themes.xml -->
+    <eat-comment/>
+    <style name="Sherlock.__Theme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Sherlock.__Theme.DarkActionBar" parent="Theme.Sherlock.Light">
+    </style>
+    <style name="Sherlock.__Theme.Dialog" parent="android:Theme.Dialog">
+    </style>
+    <style name="Sherlock.__Theme.Light" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/abs__styles.xml -->
+    <eat-comment/>
+    <style name="Sherlock.__Widget.ActionBar" parent="Widget">
+        <item name="displayOptions">useLogo|showHome|showTitle</item>
+        <item name="height">?attr/actionBarSize</item>
+        <item name="android:paddingLeft">0dip</item>
+        <item name="android:paddingTop">0dip</item>
+        <item name="android:paddingRight">0dip</item>
+        <item name="android:paddingBottom">0dip</item>
+        <item name="homeLayout">@layout/abs__action_bar_home</item>
+    </style>
+    <style name="Sherlock.__Widget.ActionMode" parent="Widget">
+        <item name="background">?attr/actionModeBackground</item>
+        <item name="backgroundSplit">?attr/actionModeSplitBackground</item>
+        <item name="height">?attr/actionBarSize</item>
+    </style>
+    <style name="Sherlock.__Widget.ActivityChooserView" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/abs__ab_share_pack_holo_dark</item>
+        <item name="android:divider">?attr/dividerVertical</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">6dip</item>
+    </style>
+    <style name="Sherlock.__Widget.Holo.DropDownItem" parent="Widget">
+        <item name="android:textAppearance">@style/TextAppearance.Sherlock.Widget.DropDownItem</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="Sherlock.__Widget.Holo.ListView" parent="android:Widget.ListView">
+        <item name="android:divider">@drawable/abs__list_divider_holo_dark</item>
+        <item name="android:listSelector">@drawable/abs__list_selector_holo_dark</item>
+    </style>
+    <style name="Sherlock.__Widget.Holo.Spinner" parent="Widget">
+        <item name="android:dropDownSelector">@drawable/abs__list_selector_holo_dark</item>
+        <item name="android:popupBackground">@drawable/abs__menu_dropdown_panel_holo_dark</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:spinnerMode">dropdown</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/values/values.xml -->
+    <eat-comment/>
+    <style name="Sherlock.__Widget.SearchAutoCompleteTextView" parent="Widget">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMediumInverse</item>
+        <item name="android:textColor">?attr/textColorPrimary</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:completionHintView">@layout/abs__simple_dropdown_hint</item>
+        <item name="android:completionThreshold">2</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+    </style>
+    <style name="TextAppearance.Sherlock" parent="@android:style/TextAppearance"/>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/abs__styles.xml -->
+    <eat-comment/>
+    <style name="TextAppearance.Sherlock.DialogWindowTitle" parent="Widget">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/abs__holo_blue_light</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Light.DialogWindowTitle" parent="Widget">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/abs__holo_blue_light</item>
+    </style>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/values/values.xml -->
+    <eat-comment/>
+    <style name="TextAppearance.Sherlock.Light.SearchResult" parent="TextAppearance.Sherlock.SearchResult"/>
+    <style name="TextAppearance.Sherlock.Light.SearchResult.Subtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Light.SearchResult.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/abs__styles.xml -->
+    <eat-comment/>
+    <style name="TextAppearance.Sherlock.Light.Small" parent="TextAppearance.Sherlock.Small">
+    </style>
+    <style name="TextAppearance.Sherlock.Light.Widget.PopupMenu.Large" parent="TextAppearance.Sherlock.Widget.PopupMenu.Large">
+    </style>
+    <style name="TextAppearance.Sherlock.Light.Widget.PopupMenu.Small" parent="TextAppearance.Sherlock.Widget.PopupMenu.Small">
+    </style>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/values/values.xml -->
+    <eat-comment/>
+    <style name="TextAppearance.Sherlock.SearchResult">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textColorHint">?android:attr/textColorHint</item>
+    </style>
+    <style name="TextAppearance.Sherlock.SearchResult.Subtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Sherlock.SearchResult.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/abs__styles.xml -->
+    <eat-comment/>
+    <style name="TextAppearance.Sherlock.Small" parent="Sherlock.__TextAppearance.Small">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Menu" parent="Widget">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/actionMenuTextColor</item>
+        <item name="android:textAllCaps">@bool/abs__config_actionMenuItemAllCaps</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Subtitle" parent="Widget">
+        <item name="android:textSize">@dimen/abs__action_bar_subtitle_text_size</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Subtitle.Inverse" parent="Widget">
+        <item name="android:textSize">@dimen/abs__action_bar_subtitle_text_size</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Title" parent="Widget">
+        <item name="android:textSize">@dimen/abs__action_bar_title_text_size</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Title.Inverse" parent="Widget">
+        <item name="android:textSize">@dimen/abs__action_bar_title_text_size</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionMode.Subtitle" parent="Widget">
+        <item name="android:textSize">@dimen/abs__action_bar_subtitle_text_size</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionMode.Subtitle.Inverse" parent="Widget">
+        <item name="android:textSize">@dimen/abs__action_bar_subtitle_text_size</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionMode.Title" parent="Widget">
+        <item name="android:textSize">@dimen/abs__action_bar_title_text_size</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionMode.Title.Inverse" parent="Widget">
+        <item name="android:textSize">@dimen/abs__action_bar_title_text_size</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/values/values.xml -->
+    <eat-comment/>
+    <style name="TextAppearance.Sherlock.Widget.DropDownHint" parent="Widget">
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/abs__styles.xml -->
+    <eat-comment/>
+    <style name="TextAppearance.Sherlock.Widget.DropDownItem" parent="Widget">
+        <item name="android:textColor">?textColorPrimaryDisableOnly</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.PopupMenu" parent="Widget">
+        <item name="android:textColor">?attr/textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.PopupMenu.Large">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.PopupMenu.Small">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.TextView.SpinnerItem" parent="Widget">
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/abs__themes.xml -->
+    <eat-comment/>
+    <style name="Theme.Sherlock" parent="Sherlock.__Theme">
+        <!-- Action bar styles (from Theme.Holo) -->
+        <item name="actionDropDownStyle">@style/Widget.Sherlock.Spinner.DropDown.ActionBar</item>
+        <item name="actionButtonStyle">@style/Widget.Sherlock.ActionButton</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.Sherlock.ActionButton.Overflow</item>
+        <item name="actionModeBackground">@drawable/abs__cab_background_top_holo_dark</item>
+        <item name="actionModeSplitBackground">@drawable/abs__cab_background_bottom_holo_dark</item>
+        <item name="actionModeCloseDrawable">@drawable/abs__ic_cab_done_holo_dark</item>
+        <item name="actionBarTabStyle">@style/Widget.Sherlock.ActionBar.TabView</item>
+        <item name="actionBarTabBarStyle">@style/Widget.Sherlock.ActionBar.TabBar</item>
+        <item name="actionBarTabTextStyle">@style/Widget.Sherlock.ActionBar.TabText</item>
+        <item name="actionModeStyle">@style/Widget.Sherlock.ActionMode</item>
+        <item name="actionModeCloseButtonStyle">@style/Widget.Sherlock.ActionButton.CloseMode</item>
+        <item name="actionBarStyle">@style/Widget.Sherlock.ActionBar</item>
+        <item name="actionBarSize">@dimen/abs__action_bar_default_height</item>
+        <!-- Internal --><item name="actionModePopupWindowStyle">@style/Widget.Sherlock.PopupWindow.ActionMode</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        
+        <!-- Action bar styles (defaults from Theme) -->
+        <item name="actionBarSplitStyle">?attr/actionBarStyle</item>
+        <item name="actionMenuTextAppearance">@style/TextAppearance.Sherlock.Widget.ActionBar.Menu</item>
+        <item name="actionMenuTextColor">?attr/textColorPrimary</item>
+        <item name="actionBarDivider">?attr/dividerVertical</item>
+        <item name="actionBarItemBackground">@drawable/abs__item_background_holo_dark</item>
+
+        <item name="buttonStyleSmall">@style/Widget.Sherlock.Button.Small</item>
+        
+        <item name="activatedBackgroundIndicator">@drawable/abs__activated_background_holo_dark</item>
+        <item name="actionModeShareDrawable">@drawable/abs__ic_menu_share_holo_dark</item>
+        <item name="activityChooserViewStyle">@style/Widget.Sherlock.ActivityChooserView</item>
+        
+        <item name="homeAsUpIndicator">@drawable/abs__ic_ab_back_holo_dark</item>
+        
+        <item name="dividerVertical">@drawable/abs__list_divider_holo_dark</item>
+        
+        <item name="spinnerDropDownItemStyle">@style/Widget.Sherlock.DropDownItem.Spinner</item>
+        <item name="spinnerItemStyle">@style/Widget.Sherlock.TextView.SpinnerItem</item>
+        
+        <item name="textColorPrimary">@color/abs__primary_text_holo_dark</item>
+        <item name="textColorPrimaryDisableOnly">@color/abs__primary_text_disable_only_holo_dark</item>
+        <item name="textColorPrimaryInverse">@color/abs__primary_text_holo_light</item>
+        
+        <!-- Internal --><item name="dropdownListPreferredItemHeight">48dip</item>
+        <item name="dropDownListViewStyle">@style/Widget.Sherlock.ListView.DropDown</item>
+
+        <item name="textAppearanceSmall">@style/TextAppearance.Sherlock.Small</item>
+        <item name="textAppearanceLargePopupMenu">@style/TextAppearance.Sherlock.Widget.PopupMenu.Large</item>
+        <item name="textAppearanceSmallPopupMenu">@style/TextAppearance.Sherlock.Widget.PopupMenu.Small</item>
+        
+        <item name="popupMenuStyle">@style/Widget.Sherlock.PopupMenu</item>
+        <!-- Internal --><item name="listPopupWindowStyle">@style/Widget.Sherlock.ListPopupWindow</item>
+        
+        <item name="windowActionBar">true</item>
+        <item name="windowActionModeOverlay">false</item>
+        <item name="windowContentOverlay">@null</item>
+    </style>
+    <style name="Theme.Sherlock.Dialog" parent="android:Theme">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle.Sherlock</item>
+        <item name="android:windowBackground">@drawable/abs__dialog_full_holo_dark</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        
+        <item name="android:textColorPrimary">@color/abs__primary_text_holo_dark</item>
+        <item name="android:textColorPrimaryInverse">@color/abs__primary_text_holo_light</item>
+        
+        <item name="windowMinWidthMajor">@dimen/abs__dialog_min_width_major</item>
+        <item name="windowMinWidthMinor">@dimen/abs__dialog_min_width_minor</item>
+        
+        <item name="windowActionBar">false</item>
+        <item name="windowContentOverlay">@null</item>
+    </style>
+    <style name="Theme.Sherlock.ForceOverflow">
+        <item name="absForceOverflow">true</item>
+    </style>
+    <style name="Theme.Sherlock.Light" parent="Sherlock.__Theme.Light">
+        <!-- Action bar styles (from Theme.Holo) -->
+        <item name="actionDropDownStyle">@style/Widget.Sherlock.Light.Spinner.DropDown.ActionBar</item>
+        <item name="actionButtonStyle">@style/Widget.Sherlock.Light.ActionButton</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.Sherlock.Light.ActionButton.Overflow</item>
+        <item name="actionModeBackground">@drawable/abs__cab_background_top_holo_light</item>
+        <item name="actionModeSplitBackground">@drawable/abs__cab_background_bottom_holo_light</item>
+        <item name="actionModeCloseDrawable">@drawable/abs__ic_cab_done_holo_light</item>
+        <item name="actionBarTabStyle">@style/Widget.Sherlock.Light.ActionBar.TabView</item>
+        <item name="actionBarTabBarStyle">@style/Widget.Sherlock.Light.ActionBar.TabBar</item>
+        <item name="actionBarTabTextStyle">@style/Widget.Sherlock.Light.ActionBar.TabText</item>
+        <item name="actionModeStyle">@style/Widget.Sherlock.Light.ActionMode</item>
+        <item name="actionModeCloseButtonStyle">@style/Widget.Sherlock.Light.ActionButton.CloseMode</item>
+        <item name="actionBarStyle">@style/Widget.Sherlock.Light.ActionBar.Solid</item>
+        <item name="actionBarSize">@dimen/abs__action_bar_default_height</item>
+        <!-- Internal --><item name="actionModePopupWindowStyle">@style/Widget.Sherlock.Light.PopupWindow.ActionMode</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        
+        <!-- Action bar styles (defaults from Theme) -->
+        <item name="actionBarSplitStyle">?attr/actionBarStyle</item>
+        <item name="actionMenuTextAppearance">@style/TextAppearance.Sherlock.Widget.ActionBar.Menu</item>
+        <item name="actionMenuTextColor">?attr/textColorPrimary</item>
+        <item name="actionBarDivider">?attr/dividerVertical</item>
+        <item name="actionBarItemBackground">@drawable/abs__item_background_holo_light</item>
+
+        <item name="buttonStyleSmall">@style/Widget.Sherlock.Light.Button.Small</item>
+        
+        <item name="activatedBackgroundIndicator">@drawable/abs__activated_background_holo_light</item>
+        <item name="actionModeShareDrawable">@drawable/abs__ic_menu_share_holo_light</item>
+        <item name="activityChooserViewStyle">@style/Widget.Sherlock.Light.ActivityChooserView</item>
+        
+        <item name="homeAsUpIndicator">@drawable/abs__ic_ab_back_holo_light</item>
+        
+        <item name="dividerVertical">@drawable/abs__list_divider_holo_light</item>
+        
+        <item name="spinnerDropDownItemStyle">@style/Widget.Sherlock.Light.DropDownItem.Spinner</item>
+        <item name="spinnerItemStyle">@style/Widget.Sherlock.TextView.SpinnerItem</item>
+        
+        <item name="textColorPrimary">@color/abs__primary_text_holo_light</item>
+        <item name="textColorPrimaryDisableOnly">@color/abs__primary_text_disable_only_holo_light</item>
+        <item name="textColorPrimaryInverse">@color/abs__primary_text_holo_dark</item>
+        
+        <!-- Internal --><item name="dropdownListPreferredItemHeight">48dip</item>
+        <item name="dropDownListViewStyle">@style/Widget.Sherlock.Light.ListView.DropDown</item>
+
+        <item name="textAppearanceSmall">@style/TextAppearance.Sherlock.Light.Small</item>
+        <item name="textAppearanceLargePopupMenu">@style/TextAppearance.Sherlock.Light.Widget.PopupMenu.Large</item>
+        <item name="textAppearanceSmallPopupMenu">@style/TextAppearance.Sherlock.Light.Widget.PopupMenu.Small</item>
+        
+        <item name="popupMenuStyle">@style/Widget.Sherlock.Light.PopupMenu</item>
+        <!-- Internal --><item name="listPopupWindowStyle">@style/Widget.Sherlock.Light.ListPopupWindow</item>
+        
+        <item name="windowActionBar">true</item>
+        <item name="windowActionModeOverlay">false</item>
+        <item name="windowContentOverlay">@null</item>
+    </style>
+    <style name="Theme.Sherlock.Light.DarkActionBar" parent="Sherlock.__Theme.DarkActionBar">
+        <item name="windowContentOverlay">@drawable/abs__ab_solid_shadow_holo</item>
+        <item name="actionBarStyle">@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse</item>
+        <item name="actionBarWidgetTheme">@style/Theme.Sherlock</item>
+
+        <item name="actionDropDownStyle">@style/Widget.Sherlock.Spinner.DropDown.ActionBar</item>
+        <item name="actionButtonStyle">@style/Widget.Sherlock.ActionButton</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.Sherlock.ActionButton.Overflow</item>
+        <item name="actionModeBackground">@drawable/abs__cab_background_top_holo_dark</item>
+        <item name="actionModeSplitBackground">@drawable/abs__cab_background_bottom_holo_dark</item>
+        <item name="actionModeCloseDrawable">@drawable/abs__ic_cab_done_holo_dark</item>
+        <item name="homeAsUpIndicator">@drawable/abs__ic_ab_back_holo_dark</item>
+        <item name="actionBarTabStyle">@style/Widget.Sherlock.Light.ActionBar.TabView.Inverse</item>
+        <item name="actionBarTabBarStyle">@style/Widget.Sherlock.Light.ActionBar.TabBar.Inverse</item>
+        <item name="actionBarTabTextStyle">@style/Widget.Sherlock.Light.ActionBar.TabText.Inverse</item>
+        <item name="actionBarDivider">@drawable/abs__list_divider_holo_dark</item>
+        <item name="actionBarItemBackground">@drawable/abs__item_background_holo_dark</item>
+        <item name="actionMenuTextColor">?attr/textColorPrimaryInverse</item>
+        <item name="actionModeStyle">@style/Widget.Sherlock.Light.ActionMode.Inverse</item>
+        <item name="actionModeCloseButtonStyle">@style/Widget.Sherlock.ActionButton.CloseMode</item>
+        <item name="actionModePopupWindowStyle">@style/Widget.Sherlock.PopupWindow.ActionMode</item>
+        
+        <item name="actionModeShareDrawable">@drawable/abs__ic_menu_share_holo_dark</item>
+    </style>
+    <style name="Theme.Sherlock.Light.DarkActionBar.ForceOverflow">
+        <item name="absForceOverflow">true</item>
+    </style>
+    <style name="Theme.Sherlock.Light.Dialog" parent="android:Theme.Light">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle.Sherlock.Light</item>
+        <item name="android:windowBackground">@drawable/abs__dialog_full_holo_light</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        
+        <item name="android:textColorPrimary">@color/abs__primary_text_holo_light</item>
+        <item name="android:textColorPrimaryInverse">@color/abs__primary_text_holo_dark</item>
+        
+        <item name="windowMinWidthMajor">@dimen/abs__dialog_min_width_major</item>
+        <item name="windowMinWidthMinor">@dimen/abs__dialog_min_width_minor</item>
+        
+        <item name="windowActionBar">false</item>
+        <item name="windowContentOverlay">@null</item>
+    </style>
+    <style name="Theme.Sherlock.Light.ForceOverflow">
+        <item name="absForceOverflow">true</item>
+    </style>
+    <style name="Theme.Sherlock.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Sherlock.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/abs__styles.xml -->
+    <eat-comment/>
+    <style name="Widget">
+    </style>
+    <style name="Widget.Sherlock.ActionBar" parent="Sherlock.__Widget.ActionBar">
+        <item name="titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle</item>
+        <item name="background">@drawable/abs__ab_transparent_dark_holo</item>
+        <item name="backgroundStacked">@drawable/abs__ab_stacked_transparent_dark_holo</item>
+        <item name="backgroundSplit">@drawable/abs__ab_bottom_transparent_dark_holo</item>
+        <item name="divider">?attr/dividerVertical</item>
+        <item name="progressBarStyle">@style/Widget.Sherlock.ProgressBar.Horizontal</item>
+        <item name="indeterminateProgressStyle">@style/Widget.Sherlock.ProgressBar</item>
+        <item name="progressBarPadding">32dip</item>
+        <item name="itemPadding">8dip</item>
+    </style>
+    <style name="Widget.Sherlock.ActionBar.Solid" parent="Sherlock.__Widget.ActionBar">
+        <item name="titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle</item>
+        <item name="background">@drawable/abs__ab_solid_dark_holo</item>
+        <item name="backgroundStacked">@drawable/abs__ab_stacked_solid_dark_holo</item>
+        <item name="backgroundSplit">@drawable/abs__ab_bottom_solid_dark_holo</item>
+        <item name="divider">?attr/dividerVertical</item>
+        <item name="progressBarStyle">@style/Widget.Sherlock.ProgressBar.Horizontal</item>
+        <item name="indeterminateProgressStyle">@style/Widget.Sherlock.ProgressBar</item>
+        <item name="progressBarPadding">32dip</item>
+        <item name="itemPadding">8dip</item>
+    </style>
+    <style name="Widget.Sherlock.ActionBar.TabBar" parent="Widget">
+        <item name="android:divider">?attr/actionBarDivider</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">12dip</item>
+    </style>
+    <style name="Widget.Sherlock.ActionBar.TabText" parent="Widget">
+        <item name="android:textAppearance">@null</item>
+        <item name="android:textColor">?attr/textColorPrimary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="Widget.Sherlock.ActionBar.TabView" parent="Widget">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/abs__tab_indicator_ab_holo</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+    </style>
+    <style name="Widget.Sherlock.ActionButton" parent="Widget">
+        <item name="android:background">?attr/actionBarItemBackground</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+
+        <item name="android:minWidth">@dimen/abs__action_button_min_width</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">12dip</item>
+        <item name="android:paddingRight">12dip</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="Widget.Sherlock.ActionButton.CloseMode">
+        <item name="android:background">@drawable/abs__btn_cab_done_holo_dark</item>
+    </style>
+    <style name="Widget.Sherlock.ActionButton.Overflow">
+        <item name="android:src">@drawable/abs__ic_menu_moreoverflow_holo_dark</item>
+        <item name="android:background">?attr/actionBarItemBackground</item>
+        <item name="android:contentDescription">@string/abs__action_menu_overflow_description</item>
+    </style>
+    <style name="Widget.Sherlock.ActionMode" parent="Sherlock.__Widget.ActionMode">
+        <item name="titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionMode.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionMode.Subtitle</item>
+    </style>
+    <style name="Widget.Sherlock.ActivityChooserView" parent="Sherlock.__Widget.ActivityChooserView">
+    </style>
+    <style name="Widget.Sherlock.Button.Small" parent="Widget">
+      <item name="android:textAppearance">?attr/textAppearanceSmall</item>
+      <item name="android:textColor">@color/abs__primary_text_holo_dark</item>
+      <item name="android:minHeight">48dip</item>
+      <item name="android:minWidth">48dip</item>
+    </style>
+    <style name="Widget.Sherlock.DropDownItem.Spinner" parent="Sherlock.__Widget.Holo.DropDownItem">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar" parent="Widget.Sherlock.ActionBar">
+        <item name="titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle</item>
+        <item name="background">@drawable/abs__ab_transparent_light_holo</item>
+        <item name="backgroundStacked">@drawable/abs__ab_stacked_transparent_light_holo</item>
+        <item name="backgroundSplit">@drawable/abs__ab_bottom_transparent_light_holo</item>
+        <item name="homeAsUpIndicator">@drawable/abs__ic_ab_back_holo_light</item>
+        <item name="progressBarStyle">@style/Widget.Sherlock.Light.ProgressBar.Horizontal</item>
+        <item name="indeterminateProgressStyle">@style/Widget.Sherlock.Light.ProgressBar</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.Solid">
+        <item name="titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle</item>
+        <item name="background">@drawable/abs__ab_solid_light_holo</item>
+        <item name="backgroundStacked">@drawable/abs__ab_stacked_solid_light_holo</item>
+        <item name="backgroundSplit">@drawable/abs__ab_bottom_solid_light_holo</item>
+        <item name="divider">?attr/dividerVertical</item>
+        <item name="progressBarStyle">@style/Widget.Sherlock.Light.ProgressBar.Horizontal</item>
+        <item name="indeterminateProgressStyle">@style/Widget.Sherlock.Light.ProgressBar</item>
+        <item name="progressBarPadding">32dip</item>
+        <item name="itemPadding">8dip</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Title.Inverse</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle.Inverse</item>
+        <item name="background">@drawable/abs__ab_solid_dark_holo</item>
+        <item name="backgroundStacked">@drawable/abs__ab_stacked_solid_dark_holo</item>
+        <item name="backgroundSplit">@drawable/abs__ab_bottom_solid_inverse_holo</item>
+        <item name="divider">@drawable/abs__list_divider_holo_dark</item>
+        <item name="progressBarStyle">@style/Widget.Sherlock.ProgressBar.Horizontal</item>
+        <item name="indeterminateProgressStyle">@style/Widget.Sherlock.ProgressBar</item>
+        <item name="progressBarPadding">32dip</item>
+        <item name="itemPadding">8dip</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabBar" parent="Widget.Sherlock.ActionBar.TabBar">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabBar.Inverse">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabText" parent="Widget.Sherlock.ActionBar.TabText">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabText.Inverse">
+        <item name="android:textColor">?attr/textColorPrimaryInverse</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabView" parent="Widget.Sherlock.ActionBar.TabView">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabView.Inverse">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionButton" parent="Widget.Sherlock.ActionButton">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/abs__btn_cab_done_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/abs__ic_menu_moreoverflow_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionMode" parent="Widget.Sherlock.ActionMode">
+        <item name="titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionMode.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionMode.Subtitle</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionMode.Inverse" parent="Sherlock.__Widget.ActionMode">
+        <item name="titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionMode.Title.Inverse</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionMode.Subtitle.Inverse</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActivityChooserView" parent="Widget.Sherlock.ActivityChooserView">
+        <item name="android:background">@drawable/abs__ab_share_pack_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Light.Button.Small" parent="Widget">
+      <item name="android:textAppearance">?attr/textAppearanceSmall</item>
+      <item name="android:textColor">@color/abs__primary_text_holo_light</item>
+      <item name="android:minHeight">48dip</item>
+      <item name="android:minWidth">48dip</item>
+    </style>
+    <style name="Widget.Sherlock.Light.DropDownItem.Spinner" parent="Sherlock.__Widget.Holo.DropDownItem">
+    </style>
+    <style name="Widget.Sherlock.Light.ListPopupWindow" parent="Widget">
+        <item name="android:dropDownSelector">@drawable/abs__list_selector_holo_light</item>
+        <item name="android:popupBackground">@drawable/abs__menu_dropdown_panel_holo_light</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ListView.DropDown" parent="Sherlock.__Widget.Holo.ListView">
+        <item name="android:divider">@drawable/abs__list_divider_holo_light</item>
+        <item name="android:listSelector">@drawable/abs__list_selector_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Light.PopupMenu" parent="Widget.Sherlock.Light.ListPopupWindow">
+    </style>
+    <style name="Widget.Sherlock.Light.PopupWindow.ActionMode" parent="Widget">
+        <item name="android:popupBackground">@android:color/white</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ProgressBar" parent="Widget.Sherlock.ProgressBar">
+    </style>
+    <style name="Widget.Sherlock.Light.ProgressBar.Horizontal" parent="Widget.Sherlock.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/abs__progress_horizontal_holo_light</item>
+    </style>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/values/values.xml -->
+    <eat-comment/>
+    <style name="Widget.Sherlock.Light.SearchAutoCompleteTextView" parent="Sherlock.__Widget.SearchAutoCompleteTextView">
+        <item name="android:dropDownSelector">@drawable/abs__list_selector_holo_light</item>
+        <item name="android:popupBackground">@drawable/abs__menu_dropdown_panel_holo_light</item>
+    </style>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/abs__styles.xml -->
+    <eat-comment/>
+    <style name="Widget.Sherlock.Light.Spinner.DropDown.ActionBar" parent="Sherlock.__Widget.Holo.Spinner">
+        <item name="android:background">@drawable/abs__spinner_ab_holo_light</item>
+        <item name="android:dropDownSelector">@drawable/abs__list_selector_holo_light</item>
+        <item name="android:popupBackground">@drawable/abs__menu_dropdown_panel_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.ListPopupWindow" parent="Widget">
+        <item name="android:dropDownSelector">@drawable/abs__list_selector_holo_dark</item>
+        <item name="android:popupBackground">@drawable/abs__menu_dropdown_panel_holo_dark</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+    </style>
+    <style name="Widget.Sherlock.ListView.DropDown" parent="Sherlock.__Widget.Holo.ListView">
+    </style>
+    <style name="Widget.Sherlock.PopupMenu" parent="Widget.Sherlock.ListPopupWindow">
+    </style>
+    <style name="Widget.Sherlock.PopupWindow.ActionMode" parent="Widget">
+    </style>
+    <style name="Widget.Sherlock.ProgressBar" parent="android:Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/abs__progress_medium_holo</item>
+        <item name="android:animationResolution">33</item>
+    </style>
+    <style name="Widget.Sherlock.ProgressBar.Horizontal" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/abs__progress_horizontal_holo_dark</item>
+        <!--item name="android:indeterminateDrawable">@drawable/abs__progress_indeterminate_horizontal_holo</item-->
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/values/values.xml -->
+    <eat-comment/>
+    <style name="Widget.Sherlock.SearchAutoCompleteTextView" parent="Sherlock.__Widget.SearchAutoCompleteTextView">
+        <item name="android:dropDownSelector">@drawable/abs__list_selector_holo_dark</item>
+        <item name="android:popupBackground">@drawable/abs__menu_dropdown_panel_holo_dark</item>
+    </style>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values/abs__styles.xml -->
+    <eat-comment/>
+    <style name="Widget.Sherlock.Spinner.DropDown.ActionBar" parent="Sherlock.__Widget.Holo.Spinner">
+        <item name="android:background">@drawable/abs__spinner_ab_holo_dark</item>
+    </style>
+    <style name="Widget.Sherlock.TextView.SpinnerItem" parent="Widget">
+        <item name="android:textAppearance">@style/TextAppearance.Sherlock.Widget.TextView.SpinnerItem</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+</resources>

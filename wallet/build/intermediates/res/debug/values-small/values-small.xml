@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values-small/layouts.xml -->
+    <eat-comment/>
+    <item name="show_exchange_rates_option" type="bool">true</item>
+    <item name="show_local_balance" type="bool">false</item>
+    <item name="wallet_actions_top" type="bool">true</item>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values-small/dimens.xml -->
+    <eat-comment/>
+    <dimen name="font_size_huge">38sp</dimen>
+    <dimen name="font_size_large">20sp</dimen>
+    <dimen name="font_size_normal">16sp</dimen>
+    <dimen name="font_size_small">14sp</dimen>
+    <dimen name="font_size_tiny">11sp</dimen>
+    <dimen name="font_size_xlarge">25sp</dimen>
+    <dimen name="symbol_size_normal">13sp</dimen>
+    <dimen name="wallet_address_qr_size">80dp</dimen>
+    <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/values-small/layouts.xml -->
+    <eat-comment/>
+    <item name="address_book_content" type="layout">@layout/address_book_onepane</item>
+    <item name="network_monitor_content" type="layout">@layout/network_monitor_onepane</item>
+    <item name="wallet_address_fragment" type="layout">@layout/wallet_address_fragment_horizontal</item>
+    <item name="wallet_content" type="layout">@layout/wallet_activity_onepane_vertical</item>
+</resources>
