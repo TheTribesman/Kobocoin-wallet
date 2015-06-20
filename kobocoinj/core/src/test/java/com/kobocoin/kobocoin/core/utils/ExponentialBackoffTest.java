@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.tribesman.kobocoinj.core.utils;
+package com.tribesman.core.utils;
 
-import com.tribesman.kobocoinj.core.Utils;
-import com.tribesman.kobocoinj.utils.ExponentialBackoff;
+import com.tribesman.core.Utils;
+import com.tribesman.core.utils.ExponentialBackoff;
 
 import org.junit.Before;
 import org.junit.Test;

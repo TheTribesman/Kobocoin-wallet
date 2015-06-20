@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.tribesman.kobocoinj.crypto;
+package com.tribesman.core.crypto;
 
 import com.google.common.base.Joiner;
 import org.junit.Before;

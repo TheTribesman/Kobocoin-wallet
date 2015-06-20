@@ -16,16 +16,16 @@
 
 package com.tribesman.kobocoinj.examples;
 
-import com.tribesman.kobocoinj.core.AbstractPeerEventListener;
-import com.tribesman.kobocoinj.core.NetworkParameters;
-import com.tribesman.kobocoinj.core.Peer;
-import com.tribesman.kobocoinj.core.PeerAddress;
-import com.tribesman.kobocoinj.core.VersionMessage;
-import com.tribesman.kobocoinj.net.discovery.DnsDiscovery;
-import com.tribesman.kobocoinj.net.discovery.PeerDiscoveryException;
-import com.tribesman.kobocoinj.net.NioClientManager;
-import com.tribesman.kobocoinj.params.MainNetParams;
-import com.tribesman.kobocoinj.utils.BriefLogFormatter;
+import com.tribesman.core.AbstractPeerEventListener;
+import com.tribesman.core.NetworkParameters;
+import com.tribesman.core.Peer;
+import com.tribesman.core.PeerAddress;
+import com.tribesman.core.VersionMessage;
+import com.tribesman.core.net.discovery.DnsDiscovery;
+import com.tribesman.core.net.discovery.PeerDiscoveryException;
+import com.tribesman.core.net.NioClientManager;
+import com.tribesman.core.params.MainNetParams;
+import com.tribesman.core.utils.BriefLogFormatter;
 import com.google.common.collect.Lists;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;

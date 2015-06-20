@@ -1,15 +1,15 @@
 package com.tribesman.kobocoinj.tools;
 
-import com.tribesman.kobocoinj.core.*;
-import com.tribesman.kobocoinj.params.MainNetParams;
-import com.tribesman.kobocoinj.params.TestNet3Params;
-import com.tribesman.kobocoinj.store.*;
-import com.tribesman.kobocoinj.utils.BlockFileLoader;
+import com.tribesman.core.*;
+import com.tribesman.core.params.MainNetParams;
+import com.tribesman.core.params.TestNet3Params;
+import com.tribesman.core.store.*;
+import com.tribesman.core.utils.BlockFileLoader;
 import com.google.common.base.Preconditions;
 
 import java.io.File;
 
-/** Very thin wrapper around {@link com.tribesman.kobocoinj.utils.BlockFileLoader} */
+/** Very thin wrapper around {@link com.tribesman.core.utils.BlockFileLoader} */
 public class BlockImporter {
     public static void main(String[] args) throws BlockStoreException, VerificationException, PrunedException {
         System.out.println("USAGE: BlockImporter (prod|test) (H2|Disk|MemFull|Mem|SPV) [blockStore]");

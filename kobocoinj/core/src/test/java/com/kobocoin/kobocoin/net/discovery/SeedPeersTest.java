@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.tribesman.kobocoinj.net.discovery;
+package com.tribesman.core.net.discovery;
 
-import com.tribesman.kobocoinj.params.MainNetParams;
+import com.tribesman.core.params.MainNetParams;
 import org.junit.Test;
 
 import java.net.InetSocketAddress;

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.tribesman.kobocoinj.crypto;
+package com.tribesman.core.crypto;
 
-import com.tribesman.kobocoinj.core.AddressFormatException;
-import com.tribesman.kobocoinj.core.Base58;
-import com.tribesman.kobocoinj.crypto.ChildNumber;
-import com.tribesman.kobocoinj.crypto.DeterministicHierarchy;
-import com.tribesman.kobocoinj.crypto.DeterministicKey;
-import com.tribesman.kobocoinj.crypto.HDKeyDerivation;
+import com.tribesman.core.AddressFormatException;
+import com.tribesman.core.Base58;
+import com.tribesman.core.crypto.ChildNumber;
+import com.tribesman.core.crypto.DeterministicHierarchy;
+import com.tribesman.core.crypto.DeterministicKey;
+import com.tribesman.core.crypto.HDKeyDerivation;
 import com.google.common.base.Functions;
 import com.google.common.base.Joiner;
 import com.google.common.collect.Iterables;

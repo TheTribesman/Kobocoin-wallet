@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.tribesman.kobocoinj.core;
+package com.tribesman.core;
 
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.math.BigInteger;
 
-import static com.tribesman.kobocoinj.core.Utils.*;
+import static com.tribesman.core.Utils.*;
 import static org.junit.Assert.*;
 
 public class UtilsTest {

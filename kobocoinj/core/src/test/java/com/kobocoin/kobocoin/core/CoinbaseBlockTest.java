@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.tribesman.kobocoinj.core;
+package com.tribesman.core;
 
-import com.tribesman.kobocoinj.core.AbstractBlockChain.NewBlockType;
-import com.tribesman.kobocoinj.core.Wallet.BalanceType;
-import com.tribesman.kobocoinj.params.MainNetParams;
+import com.tribesman.core.AbstractBlockChain.NewBlockType;
+import com.tribesman.core.Wallet.BalanceType;
+import com.tribesman.core.params.MainNetParams;
 import org.junit.Test;
 
 import java.io.ByteArrayOutputStream;

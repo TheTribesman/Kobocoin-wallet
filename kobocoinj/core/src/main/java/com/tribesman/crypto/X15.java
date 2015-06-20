@@ -1,7 +1,7 @@
 package com.tribesman.crypto;
 
-import com.tribesman.kobocoinj.core.Sha256Hash;
-import com.tribesman.kobocoinj.core.Sha512Hash;
+import com.tribesman.core.Sha256Hash;
+import com.tribesman.core.Sha512Hash;
 import fr.cryptohash.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,8 +1,8 @@
-package com.tribesman.kobocoinj.core;
+package com.tribesman.core;
 
-import com.tribesman.kobocoinj.core.Transaction.SigHash;
-import com.tribesman.kobocoinj.script.Script;
-import com.tribesman.kobocoinj.script.ScriptBuilder;
+import com.tribesman.core.Transaction.SigHash;
+import com.tribesman.core.script.Script;
+import com.tribesman.core.script.ScriptBuilder;
 import com.google.common.base.Preconditions;
 
 import java.io.ByteArrayOutputStream;
@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.math.BigInteger;
 import java.util.*;
 
-import static com.tribesman.kobocoinj.script.ScriptOpCodes.*;
+import static com.tribesman.core.script.ScriptOpCodes.*;
 
 /**
  * Represents a block which is sent to the tested application and which the application must either reject or accept,

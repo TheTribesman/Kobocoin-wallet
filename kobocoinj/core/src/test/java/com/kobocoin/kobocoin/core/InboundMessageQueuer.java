@@ -1,4 +1,4 @@
-package com.tribesman.kobocoinj.core;
+package com.tribesman.core;
 
 import com.google.common.util.concurrent.SettableFuture;
 

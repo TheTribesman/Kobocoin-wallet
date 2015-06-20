@@ -16,9 +16,9 @@
 
 package com.tribesman.kobocoinj.examples;
 
-import com.tribesman.kobocoinj.core.*;
-import com.tribesman.kobocoinj.params.MainNetParams;
-import com.tribesman.kobocoinj.store.MemoryBlockStore;
+import com.tribesman.core.*;
+import com.tribesman.core.params.MainNetParams;
+import com.tribesman.core.store.MemoryBlockStore;
 
 import java.math.BigInteger;
 import java.net.InetAddress;

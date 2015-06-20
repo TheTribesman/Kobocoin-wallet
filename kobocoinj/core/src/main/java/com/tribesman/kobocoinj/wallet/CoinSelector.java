@@ -1,6 +1,6 @@
 package com.tribesman.kobocoinj.wallet;
 
-import com.tribesman.kobocoinj.core.TransactionOutput;
+import com.tribesman.core.TransactionOutput;
 
 import java.math.BigInteger;
 import java.util.LinkedList;

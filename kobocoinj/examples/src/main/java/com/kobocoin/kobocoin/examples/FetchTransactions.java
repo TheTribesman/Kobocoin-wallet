@@ -16,11 +16,11 @@
 
 package com.tribesman.kobocoinj.examples;
 
-import com.tribesman.kobocoinj.core.*;
-import com.tribesman.kobocoinj.params.TestNet3Params;
-import com.tribesman.kobocoinj.store.BlockStore;
-import com.tribesman.kobocoinj.store.MemoryBlockStore;
-import com.tribesman.kobocoinj.utils.BriefLogFormatter;
+import com.tribesman.core.*;
+import com.tribesman.core.params.TestNet3Params;
+import com.tribesman.core.store.BlockStore;
+import com.tribesman.core.store.MemoryBlockStore;
+import com.tribesman.core.utils.BriefLogFormatter;
 import com.google.common.util.concurrent.ListenableFuture;
 
 import java.net.InetAddress;

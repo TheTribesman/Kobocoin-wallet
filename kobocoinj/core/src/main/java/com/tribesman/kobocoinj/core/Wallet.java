@@ -15,19 +15,19 @@
  * limitations under the License.
  */
 
-package com.tribesman.kobocoinj.core;
+package com.tribesman.core;
 
-import com.tribesman.kobocoinj.core.TransactionConfidence.ConfidenceType;
-import com.tribesman.kobocoinj.crypto.KeyCrypter;
-import com.tribesman.kobocoinj.crypto.KeyCrypterException;
-import com.tribesman.kobocoinj.crypto.KeyCrypterScrypt;
-import com.tribesman.kobocoinj.script.Script;
-import com.tribesman.kobocoinj.script.ScriptBuilder;
-import com.tribesman.kobocoinj.script.ScriptChunk;
-import com.tribesman.kobocoinj.store.UnreadableWalletException;
-import com.tribesman.kobocoinj.store.WalletProtobufSerializer;
-import com.tribesman.kobocoinj.utils.ListenerRegistration;
-import com.tribesman.kobocoinj.utils.Threading;
+import com.tribesman.core.TransactionConfidence.ConfidenceType;
+import com.tribesman.core.crypto.KeyCrypter;
+import com.tribesman.core.crypto.KeyCrypterException;
+import com.tribesman.core.crypto.KeyCrypterScrypt;
+import com.tribesman.core.script.Script;
+import com.tribesman.core.script.ScriptBuilder;
+import com.tribesman.core.script.ScriptChunk;
+import com.tribesman.core.store.UnreadableWalletException;
+import com.tribesman.core.store.WalletProtobufSerializer;
+import com.tribesman.core.utils.ListenerRegistration;
+import com.tribesman.core.utils.Threading;
 import com.tribesman.kobocoinj.wallet.*;
 import com.tribesman.kobocoinj.wallet.WalletTransaction.Pool;
 import com.google.common.collect.*;
@@ -54,8 +54,8 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
-import static com.tribesman.kobocoinj.core.Utils.kobocoinValueToFriendlyString;
-import static com.tribesman.kobocoinj.core.Utils.kobocoinValueToPlainString;
+import static com.tribesman.core.Utils.kobocoinValueToFriendlyString;
+import static com.tribesman.core.Utils.kobocoinValueToPlainString;
 import static com.google.common.base.Preconditions.*;
 
 // To do list:
@@ -1589,7 +1589,7 @@ public class Wallet implements Serializable, BlockChainListener, PeerFilterProvi
 
         /**
          * When emptyWallet is set, all coins selected by the coin selector are sent to the first output in tx
-         * (its value is ignored and set to {@link com.tribesman.kobocoinj.core.Wallet#getBalance()} - the fees required
+         * (its value is ignored and set to {@link com.tribesman.core.Wallet#getBalance()} - the fees required
          * for the transaction). Any additional outputs are removed.
          */
         public boolean emptyWallet = false;
@@ -1612,7 +1612,7 @@ public class Wallet implements Serializable, BlockChainListener, PeerFilterProvi
          * at least {@link Transaction#REFERENCE_DEFAULT_MIN_TX_FEE} if it is set, as default reference clients will
          * otherwise simply treat the transaction as if there were no fee at all.</p>
          *
-         * <p>Once {@link Wallet#completeTx(com.tribesman.kobocoinj.core.Wallet.SendRequest)} is called, this is set to the
+         * <p>Once {@link Wallet#completeTx(com.tribesman.core.Wallet.SendRequest)} is called, this is set to the
          * value of the fee that was added.</p>
          *
          * <p>You might also consider adding a {@link SendRequest#feePerKb} to set the fee per kb of transaction size
@@ -2675,7 +2675,7 @@ public class Wallet implements Serializable, BlockChainListener, PeerFilterProvi
 
     /**
      * Returns the earliest creation time of keys or watched scripts in this wallet, in seconds since the epoch, ie the min
-     * of {@link com.tribesman.kobocoinj.core.ECKey#getCreationTimeSeconds()}. This can return zero if at least one key does
+     * of {@link com.tribesman.core.ECKey#getCreationTimeSeconds()}. This can return zero if at least one key does
      * not have that data (was created before key timestamping was implemented). <p>
      *     
      * This method is most often used in conjunction with {@link PeerGroup#setFastCatchupTimeSecs(long)} in order to
@@ -2786,7 +2786,7 @@ public class Wallet implements Serializable, BlockChainListener, PeerFilterProvi
     }
 
     /**
-     * Convenience wrapper around {@link Wallet#encrypt(com.tribesman.kobocoinj.crypto.KeyCrypter,
+     * Convenience wrapper around {@link Wallet#encrypt(com.tribesman.core.crypto.KeyCrypter,
      * org.spongycastle.crypto.params.KeyParameter)} which uses the default Scrypt key derivation algorithm and
      * parameters, derives a key from the given password and returns the created key.
      */
@@ -2801,7 +2801,7 @@ public class Wallet implements Serializable, BlockChainListener, PeerFilterProvi
 
     /**
      * Encrypt the wallet using the KeyCrypter and the AES key. A good default KeyCrypter to use is
-     * {@link com.tribesman.kobocoinj.crypto.KeyCrypterScrypt}.
+     * {@link com.tribesman.core.crypto.KeyCrypterScrypt}.
      *
      * @param keyCrypter The KeyCrypter that specifies how to encrypt/ decrypt a key
      * @param aesKey AES key to use (normally created using KeyCrypter#deriveKey and cached as it is time consuming to create from a password)
@@ -2909,7 +2909,7 @@ public class Wallet implements Serializable, BlockChainListener, PeerFilterProvi
     }
 
     /**
-     * <p>Convenience wrapper around {@link Wallet#addNewEncryptedKey(com.tribesman.kobocoinj.crypto.KeyCrypter,
+     * <p>Convenience wrapper around {@link Wallet#addNewEncryptedKey(com.tribesman.core.crypto.KeyCrypter,
      * org.spongycastle.crypto.params.KeyParameter)} which just derives the key afresh and uses the pre-set
      * keycrypter. The wallet must have been encrypted using one of the encrypt methods previously.</p>
      *
@@ -3214,7 +3214,7 @@ public class Wallet implements Serializable, BlockChainListener, PeerFilterProvi
      * money to fail! Finally please be aware that any listeners on the future will run either on the calling thread
      * if it completes immediately, or eventually on a background thread if the balance is not yet at the right
      * level. If you do something that means you know the balance should be sufficient to trigger the future,
-     * you can use {@link com.tribesman.kobocoinj.utils.Threading#waitForUserCode()} to block until the future had a
+     * you can use {@link com.tribesman.core.utils.Threading#waitForUserCode()} to block until the future had a
      * chance to be updated.</p>
      */
     public ListenableFuture<BigInteger> getBalanceFuture(final BigInteger value, final BalanceType type) {
@@ -3634,7 +3634,7 @@ public class Wallet implements Serializable, BlockChainListener, PeerFilterProvi
      * re-organisation of the wallet contents on the block chain. For instance, in future the wallet may choose to
      * optimise itself to reduce fees or improve privacy.</p>
      */
-    public void setTransactionBroadcaster(@Nullable com.tribesman.kobocoinj.core.TransactionBroadcaster broadcaster) {
+    public void setTransactionBroadcaster(@Nullable com.tribesman.core.TransactionBroadcaster broadcaster) {
         Transaction[] toBroadcast = {};
         lock.lock();
         try {
@@ -3818,7 +3818,7 @@ public class Wallet implements Serializable, BlockChainListener, PeerFilterProvi
 
     /**
      * Returns the wallet lock under which most operations happen. This is here to satisfy the
-     * {@link com.tribesman.kobocoinj.core.PeerFilterProvider} interface and generally should not be used directly by apps.
+     * {@link com.tribesman.core.PeerFilterProvider} interface and generally should not be used directly by apps.
      * In particular, do <b>not</b> hold this lock if you're display a send confirm screen to the user or for any other
      * long length of time, as it may cause processing holdups elsewhere. Instead, for the "confirm payment screen"
      * use case you should complete a candidate transaction, present it to the user (e.g. for fee purposes) and then

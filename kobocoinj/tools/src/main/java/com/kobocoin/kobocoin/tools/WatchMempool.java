@@ -1,9 +1,9 @@
 package com.tribesman.kobocoinj.tools;
 
-import com.tribesman.kobocoinj.core.*;
-import com.tribesman.kobocoinj.net.discovery.DnsDiscovery;
-import com.tribesman.kobocoinj.params.MainNetParams;
-import com.tribesman.kobocoinj.utils.BriefLogFormatter;
+import com.tribesman.core.*;
+import com.tribesman.core.net.discovery.DnsDiscovery;
+import com.tribesman.core.params.MainNetParams;
+import com.tribesman.core.utils.BriefLogFormatter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

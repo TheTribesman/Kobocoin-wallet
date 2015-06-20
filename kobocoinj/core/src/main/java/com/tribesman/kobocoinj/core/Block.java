@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.tribesman.kobocoinj.core;
+package com.tribesman.core;
 
-import com.tribesman.kobocoinj.script.Script;
-import com.tribesman.kobocoinj.script.ScriptBuilder;
+import com.tribesman.core.script.Script;
+import com.tribesman.core.script.ScriptBuilder;
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.base.Preconditions;
 import com.google.common.collect.ImmutableList;
@@ -38,8 +38,8 @@ import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 
-import static com.tribesman.kobocoinj.core.Utils.doubleDigest;
-import static com.tribesman.kobocoinj.core.Utils.doubleDigestTwoBuffers;
+import static com.tribesman.core.Utils.doubleDigest;
+import static com.tribesman.core.Utils.doubleDigestTwoBuffers;
 import static com.tribesman.crypto.X15.x15Digest;
 
 /**
@@ -170,7 +170,7 @@ public class Block extends Message {
      * the system it was 50 coins per block, in late 2012 it went to 25 coins per block, and so on. The size of
      * a coinbase transaction is inflation plus fees.</p>
      *
-     * <p>The half-life is controlled by {@link com.tribesman.kobocoinj.core.NetworkParameters#getSubsidyDecreaseBlockCount()}.
+     * <p>The half-life is controlled by {@link com.tribesman.core.NetworkParameters#getSubsidyDecreaseBlockCount()}.
      * </p>
      */
     public BigInteger getBlockInflation(int height) {
@@ -904,7 +904,7 @@ public class Block extends Message {
      * Returns the difficulty of the proof of work that this block should meet encoded <b>in compact form</b>. The {@link
      * BlockChain} verifies that this is not too easy by looking at the length of the chain when the block is added.
      * To find the actual value the hash should be compared against, use
-     * {@link com.tribesman.kobocoinj.core.Block#getDifficultyTargetAsInteger()}. Note that this is <b>not</b> the same as
+     * {@link com.tribesman.core.Block#getDifficultyTargetAsInteger()}. Note that this is <b>not</b> the same as
      * the difficulty value reported by the Kobocoin "getdifficulty" RPC that you may see on various block explorers.
      * That number is the result of applying a formula to the underlying difficulty to normalize the minimum to 1.
      * Calculating the difficulty that way is currently unsupported.

@@ -1,11 +1,11 @@
 package com.tribesman.kobocoinj.tools;
 
-import com.tribesman.kobocoinj.core.*;
-import com.tribesman.kobocoinj.params.MainNetParams;
-import com.tribesman.kobocoinj.store.BlockStore;
-import com.tribesman.kobocoinj.store.MemoryBlockStore;
-import com.tribesman.kobocoinj.utils.BriefLogFormatter;
-import com.tribesman.kobocoinj.utils.Threading;
+import com.tribesman.core.*;
+import com.tribesman.core.params.MainNetParams;
+import com.tribesman.core.store.BlockStore;
+import com.tribesman.core.store.MemoryBlockStore;
+import com.tribesman.core.utils.BriefLogFormatter;
+import com.tribesman.core.utils.Threading;
 
 import java.io.DataOutputStream;
 import java.io.FileInputStream;

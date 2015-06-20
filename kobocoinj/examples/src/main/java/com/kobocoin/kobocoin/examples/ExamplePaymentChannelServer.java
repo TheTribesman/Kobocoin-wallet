@@ -16,11 +16,11 @@
 
 package com.tribesman.kobocoinj.examples;
 
-import com.tribesman.kobocoinj.core.*;
-import com.tribesman.kobocoinj.kits.WalletAppKit;
-import com.tribesman.kobocoinj.params.TestNet3Params;
-import com.tribesman.kobocoinj.protocols.channels.*;
-import com.tribesman.kobocoinj.utils.BriefLogFormatter;
+import com.tribesman.core.*;
+import com.tribesman.core.kits.WalletAppKit;
+import com.tribesman.core.params.TestNet3Params;
+import com.tribesman.core.protocols.channels.*;
+import com.tribesman.core.utils.BriefLogFormatter;
 import org.slf4j.LoggerFactory;
 
 import java.io.File;

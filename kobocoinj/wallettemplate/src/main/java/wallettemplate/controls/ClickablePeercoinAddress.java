@@ -1,6 +1,6 @@
 package wallettemplate.controls;
 
-import com.tribesman.kobocoinj.uri.KobocoinURI;
+import com.tribesman.core.uri.KobocoinURI;
 import de.jensd.fx.fontawesome.AwesomeDude;
 import de.jensd.fx.fontawesome.AwesomeIcon;
 import javafx.beans.property.StringProperty;

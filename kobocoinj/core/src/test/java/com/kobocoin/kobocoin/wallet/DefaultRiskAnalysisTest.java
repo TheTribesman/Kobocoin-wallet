@@ -19,8 +19,8 @@ package com.tribesman.kobocoinj.wallet;
 
 import java.math.BigInteger;
 
-import com.tribesman.kobocoinj.core.*;
-import com.tribesman.kobocoinj.params.MainNetParams;
+import com.tribesman.core.*;
+import com.tribesman.core.params.MainNetParams;
 import com.google.common.collect.ImmutableList;
 import org.junit.Before;
 import org.junit.Test;

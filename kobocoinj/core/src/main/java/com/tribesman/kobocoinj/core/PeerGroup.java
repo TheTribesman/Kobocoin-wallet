@@ -15,17 +15,17 @@
  */
 
 
-package com.tribesman.kobocoinj.core;
+package com.tribesman.core;
 
-import com.tribesman.kobocoinj.net.ClientConnectionManager;
-import com.tribesman.kobocoinj.net.FilterMerger;
-import com.tribesman.kobocoinj.net.NioClientManager;
-import com.tribesman.kobocoinj.net.discovery.PeerDiscovery;
-import com.tribesman.kobocoinj.net.discovery.PeerDiscoveryException;
-import com.tribesman.kobocoinj.script.Script;
-import com.tribesman.kobocoinj.utils.ExponentialBackoff;
-import com.tribesman.kobocoinj.utils.ListenerRegistration;
-import com.tribesman.kobocoinj.utils.Threading;
+import com.tribesman.core.net.ClientConnectionManager;
+import com.tribesman.core.net.FilterMerger;
+import com.tribesman.core.net.NioClientManager;
+import com.tribesman.core.net.discovery.PeerDiscovery;
+import com.tribesman.core.net.discovery.PeerDiscoveryException;
+import com.tribesman.core.script.Script;
+import com.tribesman.core.utils.ExponentialBackoff;
+import com.tribesman.core.utils.ListenerRegistration;
+import com.tribesman.core.utils.Threading;
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.base.Preconditions;
 import com.google.common.collect.ImmutableList;
@@ -910,7 +910,7 @@ public class PeerGroup extends AbstractExecutionThreadService implements Transac
      * 
      * @param address destination IP and port.
      * @return The newly created Peer object or null if the peer could not be connected.
-     *         Use {@link com.tribesman.kobocoinj.core.Peer#getConnectionOpenFuture()} if you
+     *         Use {@link com.tribesman.core.Peer#getConnectionOpenFuture()} if you
      *         want a future which completes when the connection is open.
      */
     @Nullable
@@ -1265,7 +1265,7 @@ public class PeerGroup extends AbstractExecutionThreadService implements Transac
 
     /**
      * Returns a future that is triggered when the number of connected peers is equal to the given number of connected
-     * peers. By using this with {@link com.tribesman.kobocoinj.core.PeerGroup#getMaxConnections()} you can wait until the
+     * peers. By using this with {@link com.tribesman.core.PeerGroup#getMaxConnections()} you can wait until the
      * network is fully online. To block immediately, just call get() on the result.
      *
      * @param numPeers How many peers to wait for.
@@ -1297,7 +1297,7 @@ public class PeerGroup extends AbstractExecutionThreadService implements Transac
      * enough, {@link PeerGroup#broadcastTransaction(Transaction)} will wait until the minimum number is reached so
      * propagation across the network can be observed. If no value has been set using
      * {@link PeerGroup#setMinBroadcastConnections(int)} a default of half of whatever
-     * {@link com.tribesman.kobocoinj.core.PeerGroup#getMaxConnections()} returns is used.
+     * {@link com.tribesman.core.PeerGroup#getMaxConnections()} returns is used.
      */
     public int getMinBroadcastConnections() {
         lock.lock();
@@ -1316,7 +1316,7 @@ public class PeerGroup extends AbstractExecutionThreadService implements Transac
     }
 
     /**
-     * See {@link com.tribesman.kobocoinj.core.PeerGroup#getMinBroadcastConnections()}.
+     * See {@link com.tribesman.core.PeerGroup#getMinBroadcastConnections()}.
      */
     public void setMinBroadcastConnections(int value) {
         lock.lock();
@@ -1398,7 +1398,7 @@ public class PeerGroup extends AbstractExecutionThreadService implements Transac
 
     /**
      * Returns the period between pings for an individual peer. Setting this lower means more accurate and timely ping
-     * times are available via {@link com.tribesman.kobocoinj.core.Peer#getLastPingTime()} but it increases load on the
+     * times are available via {@link com.tribesman.core.Peer#getLastPingTime()} but it increases load on the
      * remote node. It defaults to 5000.
      */
     public long getPingIntervalMsec() {
@@ -1412,10 +1412,10 @@ public class PeerGroup extends AbstractExecutionThreadService implements Transac
 
     /**
      * Sets the period between pings for an individual peer. Setting this lower means more accurate and timely ping
-     * times are available via {@link com.tribesman.kobocoinj.core.Peer#getLastPingTime()} but it increases load on the
+     * times are available via {@link com.tribesman.core.Peer#getLastPingTime()} but it increases load on the
      * remote node. It defaults to {@link PeerGroup#DEFAULT_PING_INTERVAL_MSEC}.
      * Setting the value to be <= 0 disables pinging entirely, although you can still request one yourself
-     * using {@link com.tribesman.kobocoinj.core.Peer#ping()}.
+     * using {@link com.tribesman.core.Peer#ping()}.
      */
     public void setPingIntervalMsec(long pingIntervalMsec) {
         lock.lock();

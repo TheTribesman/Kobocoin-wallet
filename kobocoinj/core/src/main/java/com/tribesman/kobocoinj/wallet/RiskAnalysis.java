@@ -16,8 +16,8 @@
 
 package com.tribesman.kobocoinj.wallet;
 
-import com.tribesman.kobocoinj.core.Transaction;
-import com.tribesman.kobocoinj.core.Wallet;
+import com.tribesman.core.Transaction;
+import com.tribesman.core.Wallet;
 
 import java.util.List;
 

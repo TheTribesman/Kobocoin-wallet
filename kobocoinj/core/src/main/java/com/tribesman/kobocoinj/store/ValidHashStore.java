@@ -15,33 +15,31 @@
  * limitations under the License.
  */
 
-package com.tribesman.kobocoinj.store;
+package com.tribesman.core.store;
 
 
 import com.google.common.base.Objects;
 import static com.google.common.base.Preconditions.checkNotNull;
 import com.google.common.io.Files;
 import com.google.common.primitives.Bytes;
-import com.tribesman.kobocoinj.core.AbstractBlockChain;
-import com.tribesman.kobocoinj.core.Sha256Hash;
-import com.tribesman.kobocoinj.core.StoredBlock;
-import com.tribesman.kobocoinj.core.Utils;
+import com.tribesman.core.AbstractBlockChain;
+import com.tribesman.core.Sha256Hash;
+import com.tribesman.core.StoredBlock;
+import com.tribesman.core.Utils;
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
-import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.lang.reflect.Array;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
-import org.omg.CORBA_2_3.portable.OutputStream;
+
 import org.spongycastle.util.encoders.Hex;
 
 public class ValidHashStore {

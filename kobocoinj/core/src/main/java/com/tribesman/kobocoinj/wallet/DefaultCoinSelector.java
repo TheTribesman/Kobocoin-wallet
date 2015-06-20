@@ -1,9 +1,9 @@
 package com.tribesman.kobocoinj.wallet;
 
-import com.tribesman.kobocoinj.core.NetworkParameters;
-import com.tribesman.kobocoinj.core.Transaction;
-import com.tribesman.kobocoinj.core.TransactionConfidence;
-import com.tribesman.kobocoinj.core.TransactionOutput;
+import com.tribesman.core.NetworkParameters;
+import com.tribesman.core.Transaction;
+import com.tribesman.core.TransactionConfidence;
+import com.tribesman.core.TransactionOutput;
 import com.google.common.annotations.VisibleForTesting;
 
 import java.math.BigInteger;

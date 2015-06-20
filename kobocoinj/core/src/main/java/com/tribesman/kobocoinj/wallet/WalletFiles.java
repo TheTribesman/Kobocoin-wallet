@@ -17,8 +17,8 @@
 
 package com.tribesman.kobocoinj.wallet;
 
-import com.tribesman.kobocoinj.core.Wallet;
-import com.tribesman.kobocoinj.utils.Threading;
+import com.tribesman.core.Wallet;
+import com.tribesman.core.utils.Threading;
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -16,13 +16,13 @@
 
 package com.tribesman.kobocoinj.examples;
 
-import com.tribesman.kobocoinj.core.*;
-import com.tribesman.kobocoinj.crypto.KeyCrypterException;
-import com.tribesman.kobocoinj.kits.WalletAppKit;
-import com.tribesman.kobocoinj.params.MainNetParams;
-import com.tribesman.kobocoinj.params.RegTestParams;
-import com.tribesman.kobocoinj.params.TestNet3Params;
-import com.tribesman.kobocoinj.utils.BriefLogFormatter;
+import com.tribesman.core.*;
+import com.tribesman.core.crypto.KeyCrypterException;
+import com.tribesman.core.kits.WalletAppKit;
+import com.tribesman.core.params.MainNetParams;
+import com.tribesman.core.params.RegTestParams;
+import com.tribesman.core.params.TestNet3Params;
+import com.tribesman.core.utils.BriefLogFormatter;
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.MoreExecutors;

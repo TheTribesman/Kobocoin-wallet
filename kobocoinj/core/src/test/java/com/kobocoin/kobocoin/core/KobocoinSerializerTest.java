@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.tribesman.kobocoinj.core;
+package com.tribesman.core;
 
 
-import com.tribesman.kobocoinj.params.MainNetParams;
+import com.tribesman.core.params.MainNetParams;
 import org.junit.Test;
 import org.spongycastle.util.encoders.Hex;
 

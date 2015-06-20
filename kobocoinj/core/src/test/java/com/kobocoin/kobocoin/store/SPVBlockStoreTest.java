@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.tribesman.kobocoinj.store;
+package com.tribesman.core.store;
 
-import com.tribesman.kobocoinj.core.Address;
-import com.tribesman.kobocoinj.core.ECKey;
-import com.tribesman.kobocoinj.core.NetworkParameters;
-import com.tribesman.kobocoinj.core.StoredBlock;
-import com.tribesman.kobocoinj.params.UnitTestParams;
+import com.tribesman.core.Address;
+import com.tribesman.core.ECKey;
+import com.tribesman.core.NetworkParameters;
+import com.tribesman.core.StoredBlock;
+import com.tribesman.core.params.UnitTestParams;
 import org.junit.Test;
 
 import java.io.File;

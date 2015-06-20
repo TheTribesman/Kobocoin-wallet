@@ -16,19 +16,19 @@
 
 package com.tribesman.kobocoinj.tools;
 
-import com.tribesman.kobocoinj.core.*;
-import com.tribesman.kobocoinj.crypto.KeyCrypterException;
-import com.tribesman.kobocoinj.net.discovery.DnsDiscovery;
-import com.tribesman.kobocoinj.net.discovery.PeerDiscovery;
-import com.tribesman.kobocoinj.params.MainNetParams;
-import com.tribesman.kobocoinj.params.RegTestParams;
-import com.tribesman.kobocoinj.params.TestNet3Params;
-import com.tribesman.kobocoinj.protocols.payments.PaymentRequestException;
-import com.tribesman.kobocoinj.protocols.payments.PaymentSession;
-import com.tribesman.kobocoinj.store.*;
-import com.tribesman.kobocoinj.uri.KobocoinURI;
-import com.tribesman.kobocoinj.uri.KobocoinURIParseException;
-import com.tribesman.kobocoinj.utils.BriefLogFormatter;
+import com.tribesman.core.*;
+import com.tribesman.core.crypto.KeyCrypterException;
+import com.tribesman.core.net.discovery.DnsDiscovery;
+import com.tribesman.core.net.discovery.PeerDiscovery;
+import com.tribesman.core.params.MainNetParams;
+import com.tribesman.core.params.RegTestParams;
+import com.tribesman.core.params.TestNet3Params;
+import com.tribesman.core.protocols.payments.PaymentRequestException;
+import com.tribesman.core.protocols.payments.PaymentSession;
+import com.tribesman.core.store.*;
+import com.tribesman.core.uri.KobocoinURI;
+import com.tribesman.core.uri.KobocoinURIParseException;
+import com.tribesman.core.utils.BriefLogFormatter;
 import com.google.common.base.Charsets;
 import com.google.common.collect.ImmutableList;
 import com.google.common.io.Resources;

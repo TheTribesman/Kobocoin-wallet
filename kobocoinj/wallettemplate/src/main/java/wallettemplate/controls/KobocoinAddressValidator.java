@@ -1,8 +1,8 @@
 package wallettemplate.controls;
 
-import com.tribesman.kobocoinj.core.Address;
-import com.tribesman.kobocoinj.core.AddressFormatException;
-import com.tribesman.kobocoinj.core.NetworkParameters;
+import com.tribesman.core.Address;
+import com.tribesman.core.AddressFormatException;
+import com.tribesman.core.NetworkParameters;
 import javafx.scene.Node;
 import javafx.scene.control.TextField;
 import wallettemplate.utils.TextFieldValidator;

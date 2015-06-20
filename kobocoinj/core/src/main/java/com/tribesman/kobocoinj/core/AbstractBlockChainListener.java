@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.tribesman.kobocoinj.core;
+package com.tribesman.core;
 
 import java.util.List;
 

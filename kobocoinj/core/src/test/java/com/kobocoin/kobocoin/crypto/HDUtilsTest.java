@@ -1,6 +1,6 @@
-package com.tribesman.kobocoinj.crypto;
+package com.tribesman.core.crypto;
 
-import com.tribesman.kobocoinj.core.ECKey;
+import com.tribesman.core.ECKey;
 import org.junit.Assert;
 import org.junit.Test;
 import org.slf4j.Logger;

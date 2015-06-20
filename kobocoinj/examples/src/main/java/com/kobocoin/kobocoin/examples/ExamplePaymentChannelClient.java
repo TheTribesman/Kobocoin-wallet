@@ -16,13 +16,13 @@
 
 package com.tribesman.kobocoinj.examples;
 
-import com.tribesman.kobocoinj.core.*;
-import com.tribesman.kobocoinj.kits.WalletAppKit;
-import com.tribesman.kobocoinj.params.TestNet3Params;
-import com.tribesman.kobocoinj.protocols.channels.PaymentChannelClientConnection;
-import com.tribesman.kobocoinj.protocols.channels.StoredPaymentChannelClientStates;
-import com.tribesman.kobocoinj.protocols.channels.ValueOutOfRangeException;
-import com.tribesman.kobocoinj.utils.BriefLogFormatter;
+import com.tribesman.core.*;
+import com.tribesman.core.kits.WalletAppKit;
+import com.tribesman.core.params.TestNet3Params;
+import com.tribesman.core.protocols.channels.PaymentChannelClientConnection;
+import com.tribesman.core.protocols.channels.StoredPaymentChannelClientStates;
+import com.tribesman.core.protocols.channels.ValueOutOfRangeException;
+import com.tribesman.core.utils.BriefLogFormatter;
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
@@ -34,7 +34,7 @@ import java.math.BigInteger;
 import java.net.InetSocketAddress;
 import java.util.concurrent.CountDownLatch;
 
-import static com.tribesman.kobocoinj.core.Utils.CENT;
+import static com.tribesman.core.Utils.CENT;
 import static java.math.BigInteger.TEN;
 import static java.math.BigInteger.ZERO;
 

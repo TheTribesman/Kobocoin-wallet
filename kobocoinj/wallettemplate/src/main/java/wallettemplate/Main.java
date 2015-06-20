@@ -1,13 +1,13 @@
 package wallettemplate;
 
 import com.aquafx_project.AquaFx;
-import com.tribesman.kobocoinj.core.NetworkParameters;
-import com.tribesman.kobocoinj.kits.WalletAppKit;
-import com.tribesman.kobocoinj.params.MainNetParams;
-import com.tribesman.kobocoinj.params.RegTestParams;
-import com.tribesman.kobocoinj.store.BlockStoreException;
-import com.tribesman.kobocoinj.utils.BriefLogFormatter;
-import com.tribesman.kobocoinj.utils.Threading;
+import com.tribesman.core.NetworkParameters;
+import com.tribesman.core.kits.WalletAppKit;
+import com.tribesman.core.params.MainNetParams;
+import com.tribesman.core.params.RegTestParams;
+import com.tribesman.core.store.BlockStoreException;
+import com.tribesman.core.utils.BriefLogFormatter;
+import com.tribesman.core.utils.Threading;
 import com.google.common.base.Throwables;
 import javafx.application.Application;
 import javafx.application.Platform;

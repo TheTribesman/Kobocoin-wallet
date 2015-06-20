@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.tribesman.kobocoinj.core;
+package com.tribesman.core;
 
-import com.tribesman.kobocoinj.core.TransactionConfidence.ConfidenceType;
-import com.tribesman.kobocoinj.crypto.TransactionSignature;
-import com.tribesman.kobocoinj.script.Script;
-import com.tribesman.kobocoinj.script.ScriptBuilder;
-import com.tribesman.kobocoinj.script.ScriptOpCodes;
+import com.tribesman.core.TransactionConfidence.ConfidenceType;
+import com.tribesman.core.crypto.TransactionSignature;
+import com.tribesman.core.script.Script;
+import com.tribesman.core.script.ScriptBuilder;
+import com.tribesman.core.script.ScriptOpCodes;
 import com.google.common.collect.ImmutableMap;
 
 import org.slf4j.Logger;
@@ -35,7 +35,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-import static com.tribesman.kobocoinj.core.Utils.*;
+import static com.tribesman.core.Utils.*;
 import static com.google.common.base.Preconditions.*;
 
 /**
@@ -725,7 +725,7 @@ public class Transaction extends ChildMessage implements Serializable {
     }
 
     /**
-     * Same as {@link #addSignedInput(TransactionOutPoint, com.tribesman.kobocoinj.script.Script, ECKey, com.tribesman.kobocoinj.core.Transaction.SigHash, boolean)}
+     * Same as {@link #addSignedInput(TransactionOutPoint, com.tribesman.core.script.Script, ECKey, com.tribesman.core.Transaction.SigHash, boolean)}
      * but defaults to {@link SigHash#ALL} and "false" for the anyoneCanPay flag. This is normally what you want.
      */
     public TransactionInput addSignedInput(TransactionOutPoint prevOut, Script scriptPubKey, ECKey sigKey) throws ScriptException {
@@ -885,7 +885,7 @@ public class Transaction extends ChildMessage implements Serializable {
 
     /**
      * Calculates a signature that is valid for being inserted into the input at the given position. This is simply
-     * a wrapper around calling {@link Transaction#hashForSignature(int, byte[], com.tribesman.kobocoinj.core.Transaction.SigHash, boolean)}
+     * a wrapper around calling {@link Transaction#hashForSignature(int, byte[], com.tribesman.core.Transaction.SigHash, boolean)}
      * followed by {@link ECKey#sign(Sha256Hash, org.spongycastle.crypto.params.KeyParameter)} and then returning
      * a new {@link TransactionSignature}.
      *
@@ -906,7 +906,7 @@ public class Transaction extends ChildMessage implements Serializable {
 
     /**
      * Calculates a signature that is valid for being inserted into the input at the given position. This is simply
-     * a wrapper around calling {@link Transaction#hashForSignature(int, byte[], com.tribesman.kobocoinj.core.Transaction.SigHash, boolean)}
+     * a wrapper around calling {@link Transaction#hashForSignature(int, byte[], com.tribesman.core.Transaction.SigHash, boolean)}
      * followed by {@link ECKey#sign(Sha256Hash)} and then returning a new {@link TransactionSignature}.
      *
      * @param inputIndex Which input to calculate the signature for, as an index.

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fragment xmlns:android="http://schemas.android.com/apk/res/android"
 	android:id="@+id/peer_list_fragment"
-	android:name="com.tribesman.kobocoin.wallet.ui.PeerListFragment"
+	android:name="com.tribesman.wallet.ui.PeerListFragment"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent" />
 <!-- From: file:/D:/Projects/Kobocoin%20wallet/wallet/src/main/res/layout/peer_monitor_content.xml -->

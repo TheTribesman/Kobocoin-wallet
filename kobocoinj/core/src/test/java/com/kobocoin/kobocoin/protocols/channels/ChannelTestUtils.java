@@ -1,9 +1,9 @@
-package com.tribesman.kobocoinj.protocols.channels;
+package com.tribesman.core.protocols.channels;
 
-import com.tribesman.kobocoinj.core.Sha256Hash;
-import com.tribesman.kobocoinj.core.TransactionBroadcaster;
-import com.tribesman.kobocoinj.core.Utils;
-import com.tribesman.kobocoinj.core.Wallet;
+import com.tribesman.core.Sha256Hash;
+import com.tribesman.core.TransactionBroadcaster;
+import com.tribesman.core.Utils;
+import com.tribesman.core.Wallet;
 import org.kobocoin.paymentchannel.Protos;
 
 import java.math.BigInteger;

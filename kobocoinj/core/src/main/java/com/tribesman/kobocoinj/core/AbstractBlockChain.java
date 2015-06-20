@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.tribesman.kobocoinj.core;
+package com.tribesman.core;
 
-import com.tribesman.kobocoinj.store.BlockStore;
-import com.tribesman.kobocoinj.store.BlockStoreException;
-import com.tribesman.kobocoinj.store.ValidHashStore;
-import com.tribesman.kobocoinj.utils.ListenerRegistration;
-import com.tribesman.kobocoinj.utils.Threading;
+import com.tribesman.core.store.BlockStore;
+import com.tribesman.core.store.BlockStoreException;
+import com.tribesman.core.store.ValidHashStore;
+import com.tribesman.core.utils.ListenerRegistration;
+import com.tribesman.core.utils.Threading;
 import com.google.common.base.Preconditions;
 import com.google.common.collect.Sets;
 import com.google.common.util.concurrent.ListenableFuture;
@@ -49,7 +49,7 @@ import static com.google.common.base.Preconditions.*;
  * <p>An AbstractBlockChain implementation must be connected to a {@link BlockStore} implementation. The chain object
  * by itself doesn't store any data, that's delegated to the store. Which store you use is a decision best made by
  * reading the getting started guide, but briefly, fully validating block chains need fully validating stores. In
- * the lightweight SPV mode, a {@link com.tribesman.kobocoinj.store.SPVBlockStore} is the right choice.</p>
+ * the lightweight SPV mode, a {@link com.tribesman.core.store.SPVBlockStore} is the right choice.</p>
  *
  * <p>This class implements an abstract class which makes it simple to create a BlockChain that does/doesn't do full
  * verification.  It verifies headers and is implements most of what is required to implement SPV mode, but
@@ -58,7 +58,7 @@ import static com.google.common.base.Preconditions.*;
  * <p>There are two subclasses of AbstractBlockChain that are useful: {@link BlockChain}, which is the simplest
  * class and implements <i>simplified payment verification</i>. This is a lightweight and efficient mode that does
  * not verify the contents of blocks, just their headers. A {@link FullPrunedBlockChain} paired with a
- * {@link com.tribesman.kobocoinj.store.H2FullPrunedBlockStore} implements full verification, which is equivalent to the
+ * {@link com.tribesman.core.store.H2FullPrunedBlockStore} implements full verification, which is equivalent to the
  * original Satoshi client. To learn more about the alternative security models, please consult the articles on the
  * website.</p>
  *

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.tribesman.kobocoinj.core;
+package com.tribesman.core;
 
-import com.tribesman.kobocoinj.params.MainNetParams;
-import com.tribesman.kobocoinj.params.UnitTestParams;
-import com.tribesman.kobocoinj.store.BlockStore;
-import com.tribesman.kobocoinj.store.MemoryBlockStore;
+import com.tribesman.core.params.MainNetParams;
+import com.tribesman.core.params.UnitTestParams;
+import com.tribesman.core.store.BlockStore;
+import com.tribesman.core.store.MemoryBlockStore;
 import org.junit.Before;
 import org.junit.Test;
 import org.spongycastle.util.encoders.Hex;
@@ -28,8 +28,8 @@ import java.io.ByteArrayOutputStream;
 import java.nio.ByteBuffer;
 import java.util.Arrays;
 
-import static com.tribesman.kobocoinj.utils.TestUtils.createFakeBlock;
-import static com.tribesman.kobocoinj.utils.TestUtils.createFakeTx;
+import static com.tribesman.core.utils.TestUtils.createFakeBlock;
+import static com.tribesman.core.utils.TestUtils.createFakeTx;
 import static org.junit.Assert.*;
 
 public class LazyParseByteCacheTest {

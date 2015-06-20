@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.tribesman.kobocoinj.core;
+package com.tribesman.core;
 
-import com.tribesman.kobocoinj.params.UnitTestParams;
-import com.tribesman.kobocoinj.utils.BriefLogFormatter;
-import com.tribesman.kobocoinj.utils.TestUtils;
+import com.tribesman.core.params.UnitTestParams;
+import com.tribesman.core.utils.BriefLogFormatter;
+import com.tribesman.core.utils.TestUtils;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -108,7 +108,7 @@
 		android:orientation="horizontal"
 		android:showDividers="middle" >
 
-		<com.tribesman.kobocoin.wallet.ui.CurrencyAmountView
+		<com.tribesman.wallet.ui.CurrencyAmountView
 			android:id="@+id/send_coins_amount_html5"
 			android:layout_width="0px"
 			android:layout_height="wrap_content"
@@ -121,9 +121,9 @@
 				android:imeOptions="flagNoExtractUi"
 				android:textSize="@dimen/font_size_large"
 				tools:ignore="TextFields" />
-		</com.tribesman.kobocoin.wallet.ui.CurrencyAmountView>
+		</com.tribesman.wallet.ui.CurrencyAmountView>
 
-		<com.tribesman.kobocoin.wallet.ui.CurrencyAmountView
+		<com.tribesman.wallet.ui.CurrencyAmountView
 			android:id="@+id/send_coins_amount_local"
 			android:layout_width="0px"
 			android:layout_height="wrap_content"
@@ -136,7 +136,7 @@
 				android:imeOptions="flagNoExtractUi"
 				android:textSize="@dimen/font_size_large"
 				tools:ignore="TextFields" />
-		</com.tribesman.kobocoin.wallet.ui.CurrencyAmountView>
+		</com.tribesman.wallet.ui.CurrencyAmountView>
 	</LinearLayout>
 
 	<CheckBox

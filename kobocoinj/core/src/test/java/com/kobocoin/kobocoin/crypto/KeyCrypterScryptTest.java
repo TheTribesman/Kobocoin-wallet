@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.tribesman.kobocoinj.crypto;
+package com.tribesman.core.crypto;
 
-import com.tribesman.kobocoinj.core.Utils;
-import com.tribesman.kobocoinj.utils.BriefLogFormatter;
+import com.tribesman.core.Utils;
+import com.tribesman.core.utils.BriefLogFormatter;
 import com.google.protobuf.ByteString;
 
 import org.kobocoinj.wallet.Protos;

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.tribesman.kobocoinj.net.discovery;
+package com.tribesman.core.net.discovery;
 
-import com.tribesman.kobocoinj.core.*;
-import com.tribesman.kobocoinj.utils.Threading;
+import com.tribesman.core.*;
+import com.tribesman.core.utils.Threading;
 import com.google.common.annotations.VisibleForTesting;
 import net.jcip.annotations.GuardedBy;
 import org.slf4j.LoggerFactory;

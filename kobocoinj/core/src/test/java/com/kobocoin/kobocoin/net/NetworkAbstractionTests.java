@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.tribesman.kobocoinj.net;
+package com.tribesman.core.net;
 
-import com.tribesman.kobocoinj.core.Utils;
+import com.tribesman.core.Utils;
 import com.google.common.util.concurrent.SettableFuture;
 import com.google.protobuf.ByteString;
 import org.kobocoin.paymentchannel.Protos;

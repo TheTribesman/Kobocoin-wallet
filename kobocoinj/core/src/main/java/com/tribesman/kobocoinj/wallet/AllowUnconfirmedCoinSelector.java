@@ -1,6 +1,6 @@
 package com.tribesman.kobocoinj.wallet;
 
-import com.tribesman.kobocoinj.core.Transaction;
+import com.tribesman.core.Transaction;
 
 /**
  * This coin selector will select any transaction at all, regardless of where it came from or whether it was

@@ -16,12 +16,12 @@
 
 package com.tribesman.kobocoinj.wallet;
 
-import com.tribesman.kobocoinj.core.Transaction;
+import com.tribesman.core.Transaction;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
- * Stores data about a transaction that is only relevant to the {@link com.tribesman.kobocoinj.core.Wallet} class.
+ * Stores data about a transaction that is only relevant to the {@link com.tribesman.core.Wallet} class.
  */
 public class WalletTransaction {
     public enum Pool {

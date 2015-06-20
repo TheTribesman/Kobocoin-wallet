@@ -1,9 +1,9 @@
 package wallettemplate;
 
-import com.tribesman.kobocoinj.core.AbstractWalletEventListener;
-import com.tribesman.kobocoinj.core.DownloadListener;
-import com.tribesman.kobocoinj.core.Utils;
-import com.tribesman.kobocoinj.core.Wallet;
+import com.tribesman.core.AbstractWalletEventListener;
+import com.tribesman.core.DownloadListener;
+import com.tribesman.core.Utils;
+import com.tribesman.core.Wallet;
 import javafx.animation.*;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.tribesman.kobocoinj.crypto;
+package com.tribesman.core.crypto;
 
 import org.junit.Test;
 import org.spongycastle.util.encoders.Hex;

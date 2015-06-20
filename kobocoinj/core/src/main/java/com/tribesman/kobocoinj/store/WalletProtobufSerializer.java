@@ -15,14 +15,14 @@
  * limitations under the License.
  */
 
-package com.tribesman.kobocoinj.store;
+package com.tribesman.core.store;
 
-import com.tribesman.kobocoinj.core.*;
-import com.tribesman.kobocoinj.core.TransactionConfidence.ConfidenceType;
-import com.tribesman.kobocoinj.crypto.EncryptedPrivateKey;
-import com.tribesman.kobocoinj.crypto.KeyCrypter;
-import com.tribesman.kobocoinj.crypto.KeyCrypterScrypt;
-import com.tribesman.kobocoinj.script.Script;
+import com.tribesman.core.*;
+import com.tribesman.core.TransactionConfidence.ConfidenceType;
+import com.tribesman.core.crypto.EncryptedPrivateKey;
+import com.tribesman.core.crypto.KeyCrypter;
+import com.tribesman.core.crypto.KeyCrypterScrypt;
+import com.tribesman.core.script.Script;
 import com.tribesman.kobocoinj.wallet.WalletTransaction;
 import com.google.common.collect.Lists;
 import com.google.protobuf.ByteString;

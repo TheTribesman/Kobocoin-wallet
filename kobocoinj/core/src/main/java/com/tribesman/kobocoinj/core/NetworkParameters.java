@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.tribesman.kobocoinj.core;
+package com.tribesman.core;
 
-import com.tribesman.kobocoinj.params.*;
-import com.tribesman.kobocoinj.script.Script;
-import com.tribesman.kobocoinj.script.ScriptOpCodes;
+import com.tribesman.core.params.*;
+import com.tribesman.core.script.Script;
+import com.tribesman.core.script.ScriptOpCodes;
 import com.google.common.base.Objects;
 
 import org.spongycastle.util.encoders.Hex;
@@ -32,7 +32,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static com.google.common.base.Preconditions.checkState;
-import static com.tribesman.kobocoinj.core.Utils.COIN;
+import static com.tribesman.core.Utils.COIN;
 
 /**
  * <p>NetworkParameters contains the data needed for working with an instantiation of a Kobocoin chain.</p>
@@ -247,7 +247,7 @@ public abstract class NetworkParameters implements Serializable {
     }
 
     /**
-     * First byte of a base58 encoded address. See {@link com.tribesman.kobocoinj.core.Address}. This is the same as acceptableAddressCodes[0] and
+     * First byte of a base58 encoded address. See {@link com.tribesman.core.Address}. This is the same as acceptableAddressCodes[0] and
      * is the one used for "normal" addresses. Other types of address may be encountered with version codes found in
      * the acceptableAddressCodes array.
      */
@@ -262,7 +262,7 @@ public abstract class NetworkParameters implements Serializable {
         return p2shHeader;
     }
 
-    /** First byte of a base58 encoded dumped private key. See {@link com.tribesman.kobocoinj.core.DumpedPrivateKey}. */
+    /** First byte of a base58 encoded dumped private key. See {@link com.tribesman.core.DumpedPrivateKey}. */
     public int getDumpedPrivateKeyHeader() {
         return dumpedPrivateKeyHeader;
     }
@@ -303,7 +303,7 @@ public abstract class NetworkParameters implements Serializable {
     }
 
     /**
-     * The key used to sign {@link com.tribesman.kobocoinj.core.AlertMessage}s. You can use {@link com.tribesman.kobocoinj.core.ECKey#verify(byte[], byte[], byte[])} to verify
+     * The key used to sign {@link com.tribesman.core.AlertMessage}s. You can use {@link com.tribesman.core.ECKey#verify(byte[], byte[], byte[])} to verify
      * signatures using it.
      */
     public byte[] getAlertSigningKey() {
